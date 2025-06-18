@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a5a7b490d142c2ba59ca439b843f985f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a5a7b490d142c2ba59ca439b843f985f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a5a7b490d142c2ba59ca439b843f985f = L.map(
+                "map_a5a7b490d142c2ba59ca439b843f985f",
+                {
+                    center: [10.913072076341464, 106.72010835121952],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_aac7f7a4ae91623482abe22d4e161094 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_aac7f7a4ae91623482abe22d4e161094.addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+            var marker_6f9fbc36fd2ade57af08f1b96b7dd16a = L.marker(
+                [10.79705976, 106.6483953],
+                {
+}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+            var icon_5457c2c2c346b127dee852407e157685 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c39fffd952efafb0526803328e02b7c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f96cf028057181b8d584ab183992ff99 = $(`<div id="html_f96cf028057181b8d584ab183992ff99" style="width: 100.0%; height: 100.0%;">Depot: Công ty Cổ phần Quốc Tế Thiền Sinh Thái</div>`)[0];
+                popup_c39fffd952efafb0526803328e02b7c5.setContent(html_f96cf028057181b8d584ab183992ff99);
+            
+        
+
+        marker_6f9fbc36fd2ade57af08f1b96b7dd16a.bindPopup(popup_c39fffd952efafb0526803328e02b7c5)
+        ;
+
+        
+    
+    
+                marker_6f9fbc36fd2ade57af08f1b96b7dd16a.setIcon(icon_5457c2c2c346b127dee852407e157685);
+            
+    
+            var circle_marker_489a65cf11f1c597b6fb353aa5050848 = L.circleMarker(
+                [11.01570394, 106.3918489],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_351585daad705c8d20160ee38d00fdad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca075ee5be98fa69aff9a18984cba667 = $(`<div id="html_ca075ee5be98fa69aff9a18984cba667" style="width: 100.0%; height: 100.0%;">CÔNG TY CỔ PHẦN DỆT TRẦN HIỆP THÀNH</div>`)[0];
+                popup_351585daad705c8d20160ee38d00fdad.setContent(html_ca075ee5be98fa69aff9a18984cba667);
+            
+        
+
+        circle_marker_489a65cf11f1c597b6fb353aa5050848.bindPopup(popup_351585daad705c8d20160ee38d00fdad)
+        ;
+
+        
+    
+    
+            var circle_marker_9a9270c93fcafda98ef297d2c2311fb2 = L.circleMarker(
+                [10.99359511, 106.4811277],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_7b4e79b2102bed07c13fbf6c87a84698 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8903c9dcb3696e18ae675d6627ee89d = $(`<div id="html_e8903c9dcb3696e18ae675d6627ee89d" style="width: 100.0%; height: 100.0%;">Chi Nhánh Tổng Công Ty Cổ Phần Bia-Rượu-Nước Giải Khát Sài Gòn–Nhà Máy Bia Sài Gòn–Củ Chi</div>`)[0];
+                popup_7b4e79b2102bed07c13fbf6c87a84698.setContent(html_e8903c9dcb3696e18ae675d6627ee89d);
+            
+        
+
+        circle_marker_9a9270c93fcafda98ef297d2c2311fb2.bindPopup(popup_7b4e79b2102bed07c13fbf6c87a84698)
+        ;
+
+        
+    
+    
+            var circle_marker_3ff4ab7cb5de44d9c0bc79fe2e5cccde = L.circleMarker(
+                [11.13895554, 106.3122362],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_52aaa3cd80cf622ecc73d4fa348187eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a17df43978da5ff36508e974a98440b1 = $(`<div id="html_a17df43978da5ff36508e974a98440b1" style="width: 100.0%; height: 100.0%;">Công Ty Cổ Phần Cơ Khí Công Minh</div>`)[0];
+                popup_52aaa3cd80cf622ecc73d4fa348187eb.setContent(html_a17df43978da5ff36508e974a98440b1);
+            
+        
+
+        circle_marker_3ff4ab7cb5de44d9c0bc79fe2e5cccde.bindPopup(popup_52aaa3cd80cf622ecc73d4fa348187eb)
+        ;
+
+        
+    
+    
+            var poly_line_41978b3bbe18e0cdb5de76afac7b1a2d = L.polyline(
+                [[10.79705976, 106.6483953], [11.01570394, 106.3918489], [11.13895554, 106.3122362], [10.99359511, 106.4811277], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+            var circle_marker_6f68c3cd99b67368b11b0fa86d844d9c = L.circleMarker(
+                [11.28845389, 106.1293675],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_d67fe9e8d74d57921bbdfe91f871edf2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77de45249e6f48dc2e4272450082e78d = $(`<div id="html_77de45249e6f48dc2e4272450082e78d" style="width: 100.0%; height: 100.0%;">Công Ty TNHH MTV Nguyên Liêm</div>`)[0];
+                popup_d67fe9e8d74d57921bbdfe91f871edf2.setContent(html_77de45249e6f48dc2e4272450082e78d);
+            
+        
+
+        circle_marker_6f68c3cd99b67368b11b0fa86d844d9c.bindPopup(popup_d67fe9e8d74d57921bbdfe91f871edf2)
+        ;
+
+        
+    
+    
+            var poly_line_090a166dc8128ccf6cdd635a3c1c938f = L.polyline(
+                [[10.79705976, 106.6483953], [11.28845389, 106.1293675], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+            var circle_marker_a7a95d3062648cd27bf743f24b675f60 = L.circleMarker(
+                [10.79914047, 106.5047284],
+                {"bubblingMouseEvents": true, "color": "darkgray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgray", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_5d7d5ec02c0c20dedf66874698752bf6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b64eefdc1956143fa37fbf7bc8d151f = $(`<div id="html_1b64eefdc1956143fa37fbf7bc8d151f" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH KHOA KỸ SINH VẬT THĂNG LONG</div>`)[0];
+                popup_5d7d5ec02c0c20dedf66874698752bf6.setContent(html_1b64eefdc1956143fa37fbf7bc8d151f);
+            
+        
+
+        circle_marker_a7a95d3062648cd27bf743f24b675f60.bindPopup(popup_5d7d5ec02c0c20dedf66874698752bf6)
+        ;
+
+        
+    
+    
+            var circle_marker_74b862840e67d32f2ecb2d9a0b70e8dc = L.circleMarker(
+                [10.88037924, 106.5169975],
+                {"bubblingMouseEvents": true, "color": "darkgray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgray", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_0f81cbf465a0a32b3c7e06dce110e972 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c85238c56aeed7b3220e74f2c1d2410a = $(`<div id="html_c85238c56aeed7b3220e74f2c1d2410a" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Bao Bì Giấy Việt Trung</div>`)[0];
+                popup_0f81cbf465a0a32b3c7e06dce110e972.setContent(html_c85238c56aeed7b3220e74f2c1d2410a);
+            
+        
+
+        circle_marker_74b862840e67d32f2ecb2d9a0b70e8dc.bindPopup(popup_0f81cbf465a0a32b3c7e06dce110e972)
+        ;
+
+        
+    
+    
+            var circle_marker_be3c8176bef2e50cd21c4182d760a8fd = L.circleMarker(
+                [10.81105584, 106.5965443],
+                {"bubblingMouseEvents": true, "color": "darkgray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgray", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_6cb51a1093837ed5680e45218f6a2d18 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b2a6068dae3fb89dda8a7ebc42d1cf4 = $(`<div id="html_6b2a6068dae3fb89dda8a7ebc42d1cf4" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH FANSIPAN VINA</div>`)[0];
+                popup_6cb51a1093837ed5680e45218f6a2d18.setContent(html_6b2a6068dae3fb89dda8a7ebc42d1cf4);
+            
+        
+
+        circle_marker_be3c8176bef2e50cd21c4182d760a8fd.bindPopup(popup_6cb51a1093837ed5680e45218f6a2d18)
+        ;
+
+        
+    
+    
+            var poly_line_471028ba4d7c83707ea63d9d54256f18 = L.polyline(
+                [[10.79705976, 106.6483953], [10.88037924, 106.5169975], [10.79914047, 106.5047284], [10.81105584, 106.5965443], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "darkgray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkgray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+            var circle_marker_e9aecf70b1a09836409bcefab0ef63f3 = L.circleMarker(
+                [10.84423, 106.82119],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_9975db8a0697c7a96cc0e68794858126 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4df71397ac0418bd9be22fcde632a515 = $(`<div id="html_4df71397ac0418bd9be22fcde632a515" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH CƠ KHÍ XÂY DỰNG THƯƠNG MẠI NAM PHÁT</div>`)[0];
+                popup_9975db8a0697c7a96cc0e68794858126.setContent(html_4df71397ac0418bd9be22fcde632a515);
+            
+        
+
+        circle_marker_e9aecf70b1a09836409bcefab0ef63f3.bindPopup(popup_9975db8a0697c7a96cc0e68794858126)
+        ;
+
+        
+    
+    
+            var circle_marker_c324f98de09e925813b6d0df26ddf9ab = L.circleMarker(
+                [10.90769238, 106.7508222],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_06fe497014ee1d234e30dcc34574b0f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_734647fd31d86e21d5c81de87ce07494 = $(`<div id="html_734647fd31d86e21d5c81de87ce07494" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH KUBOTA KASUI VIỆT NAM</div>`)[0];
+                popup_06fe497014ee1d234e30dcc34574b0f6.setContent(html_734647fd31d86e21d5c81de87ce07494);
+            
+        
+
+        circle_marker_c324f98de09e925813b6d0df26ddf9ab.bindPopup(popup_06fe497014ee1d234e30dcc34574b0f6)
+        ;
+
+        
+    
+    
+            var circle_marker_b7c751193e7a86a49dcdcc16f4111e25 = L.circleMarker(
+                [10.8448037, 106.775441],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_404d0e58b21660b2af6863f12c93aafc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f1c33c7e8558112405e9c4c1c06fe26 = $(`<div id="html_5f1c33c7e8558112405e9c4c1c06fe26" style="width: 100.0%; height: 100.0%;">Công ty cổ phần Kỹ Thuật Tân Phát Long</div>`)[0];
+                popup_404d0e58b21660b2af6863f12c93aafc.setContent(html_5f1c33c7e8558112405e9c4c1c06fe26);
+            
+        
+
+        circle_marker_b7c751193e7a86a49dcdcc16f4111e25.bindPopup(popup_404d0e58b21660b2af6863f12c93aafc)
+        ;
+
+        
+    
+    
+            var circle_marker_d6f26e52207bedb9afce11f9b9cd2e62 = L.circleMarker(
+                [10.97615, 106.87773],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_d1cf9071ad4a0bb3f6be94f23b612f93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75ce4628e88a685d2ce8a51609e83528 = $(`<div id="html_75ce4628e88a685d2ce8a51609e83528" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Một Thành Viên Quỳnh Trâm Anh</div>`)[0];
+                popup_d1cf9071ad4a0bb3f6be94f23b612f93.setContent(html_75ce4628e88a685d2ce8a51609e83528);
+            
+        
+
+        circle_marker_d6f26e52207bedb9afce11f9b9cd2e62.bindPopup(popup_d1cf9071ad4a0bb3f6be94f23b612f93)
+        ;
+
+        
+    
+    
+            var circle_marker_415ac0ce3a542b48e32b79a62a8b0c98 = L.circleMarker(
+                [10.97455776, 106.7076605],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_933552fbe590270e3a05cc24f1e80e23 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb2c0d8978d021f71420252e8adb54cc = $(`<div id="html_bb2c0d8978d021f71420252e8adb54cc" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG CỰ PHONG</div>`)[0];
+                popup_933552fbe590270e3a05cc24f1e80e23.setContent(html_bb2c0d8978d021f71420252e8adb54cc);
+            
+        
+
+        circle_marker_415ac0ce3a542b48e32b79a62a8b0c98.bindPopup(popup_933552fbe590270e3a05cc24f1e80e23)
+        ;
+
+        
+    
+    
+            var circle_marker_e45a28053e91cb25225c40df70308c64 = L.circleMarker(
+                [10.9304519, 106.7108331],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_72232c216c79a8d9b0baa263384ff689 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c32b37abd2b8f1b966cca982169f8cc = $(`<div id="html_2c32b37abd2b8f1b966cca982169f8cc" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ CƠ KHÍ VIỆT TÍN</div>`)[0];
+                popup_72232c216c79a8d9b0baa263384ff689.setContent(html_2c32b37abd2b8f1b966cca982169f8cc);
+            
+        
+
+        circle_marker_e45a28053e91cb25225c40df70308c64.bindPopup(popup_72232c216c79a8d9b0baa263384ff689)
+        ;
+
+        
+    
+    
+            var poly_line_bc6e7935e7c356d6e2ce73a53189a846 = L.polyline(
+                [[10.79705976, 106.6483953], [10.90769238, 106.7508222], [10.9304519, 106.7108331], [10.97455776, 106.7076605], [10.97615, 106.87773], [10.84423, 106.82119], [10.8448037, 106.775441], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+            var circle_marker_d05b1eadbf5b9ec768dfe9577e50c566 = L.circleMarker(
+                [10.65530283, 107.0287851],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_0804871d519cfda36089f301127bd542 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3967380392082145c72d4520c118732d = $(`<div id="html_3967380392082145c72d4520c118732d" style="width: 100.0%; height: 100.0%;">Công ty TNHH AICA Đồng Nai</div>`)[0];
+                popup_0804871d519cfda36089f301127bd542.setContent(html_3967380392082145c72d4520c118732d);
+            
+        
+
+        circle_marker_d05b1eadbf5b9ec768dfe9577e50c566.bindPopup(popup_0804871d519cfda36089f301127bd542)
+        ;
+
+        
+    
+    
+            var circle_marker_01630c6ba3f1f0c8dd7996eb91954bd8 = L.circleMarker(
+                [10.68703497, 107.0317945],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_647fb81ec91a84c459f0df6b52545b94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f05999a2a874e0bd8a72f15341deaf5c = $(`<div id="html_f05999a2a874e0bd8a72f15341deaf5c" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH HÓA CHẤT CHẤT HÓA DẺO VINA</div>`)[0];
+                popup_647fb81ec91a84c459f0df6b52545b94.setContent(html_f05999a2a874e0bd8a72f15341deaf5c);
+            
+        
+
+        circle_marker_01630c6ba3f1f0c8dd7996eb91954bd8.bindPopup(popup_647fb81ec91a84c459f0df6b52545b94)
+        ;
+
+        
+    
+    
+            var circle_marker_6cc6076a59e6683b3d5325ef50f3105a = L.circleMarker(
+                [10.5237672, 107.0729706],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_b7a94f70753778cdf5d6b85dd26c192f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7c1cb9b943dfa8c0bb16a75360073ba = $(`<div id="html_e7c1cb9b943dfa8c0bb16a75360073ba" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH IGUACU VIỆT NAM</div>`)[0];
+                popup_b7a94f70753778cdf5d6b85dd26c192f.setContent(html_e7c1cb9b943dfa8c0bb16a75360073ba);
+            
+        
+
+        circle_marker_6cc6076a59e6683b3d5325ef50f3105a.bindPopup(popup_b7a94f70753778cdf5d6b85dd26c192f)
+        ;
+
+        
+    
+    
+            var circle_marker_f21a0c6aa9c9ee4d431b07aeee9e36e4 = L.circleMarker(
+                [10.65314293, 107.0240825],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_ab31acf77af503139d9fa763758acd94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9e7ee05ea460bcaa9536438335d2965 = $(`<div id="html_e9e7ee05ea460bcaa9536438335d2965" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH NHỰA VÀ HÓA CHẤT TPC VINA</div>`)[0];
+                popup_ab31acf77af503139d9fa763758acd94.setContent(html_e9e7ee05ea460bcaa9536438335d2965);
+            
+        
+
+        circle_marker_f21a0c6aa9c9ee4d431b07aeee9e36e4.bindPopup(popup_ab31acf77af503139d9fa763758acd94)
+        ;
+
+        
+    
+    
+            var circle_marker_614b5b3e9314cd9c2284d932bebd316d = L.circleMarker(
+                [10.5831429, 107.0380686],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_962bec955963e818ee3c612b4b5dd332 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0e5f96bb495bf04d5a650633bc7da84 = $(`<div id="html_a0e5f96bb495bf04d5a650633bc7da84" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Kinh Doanh Nông Sản Việt Nam</div>`)[0];
+                popup_962bec955963e818ee3c612b4b5dd332.setContent(html_a0e5f96bb495bf04d5a650633bc7da84);
+            
+        
+
+        circle_marker_614b5b3e9314cd9c2284d932bebd316d.bindPopup(popup_962bec955963e818ee3c612b4b5dd332)
+        ;
+
+        
+    
+    
+            var poly_line_7ea0b745791fa7abc1fa33c7bfce42bf = L.polyline(
+                [[10.79705976, 106.6483953], [10.68703497, 107.0317945], [10.65530283, 107.0287851], [10.65314293, 107.0240825], [10.5831429, 107.0380686], [10.5237672, 107.0729706], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+            var circle_marker_4a52e82cfa43a81f86f859202a47a00c = L.circleMarker(
+                [10.75659336, 106.429552],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_e892fa6f4df1da08c92a337d7ecbb702 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3af1d36bda320b00362d57ec72abf65 = $(`<div id="html_d3af1d36bda320b00362d57ec72abf65" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH KHOA KỸ SINH VẬT THĂNG LONG - CHI NHÁNH BẾN LỨC</div>`)[0];
+                popup_e892fa6f4df1da08c92a337d7ecbb702.setContent(html_d3af1d36bda320b00362d57ec72abf65);
+            
+        
+
+        circle_marker_4a52e82cfa43a81f86f859202a47a00c.bindPopup(popup_e892fa6f4df1da08c92a337d7ecbb702)
+        ;
+
+        
+    
+    
+            var circle_marker_1f57f489daa28d78557eb4153b5ce33e = L.circleMarker(
+                [10.6180761, 106.4718823],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_b33cfe243b6fecdad486f3195b118e32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9995738db0b3404568ed39f781d41a07 = $(`<div id="html_9995738db0b3404568ed39f781d41a07" style="width: 100.0%; height: 100.0%;">Công Ty Cổ Phần Greenfeed Việt Nam</div>`)[0];
+                popup_b33cfe243b6fecdad486f3195b118e32.setContent(html_9995738db0b3404568ed39f781d41a07);
+            
+        
+
+        circle_marker_1f57f489daa28d78557eb4153b5ce33e.bindPopup(popup_b33cfe243b6fecdad486f3195b118e32)
+        ;
+
+        
+    
+    
+            var poly_line_0eb0d9cb673a0f68de75c3d8150437a6 = L.polyline(
+                [[10.79705976, 106.6483953], [10.75659336, 106.429552], [10.6180761, 106.4718823], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+            var circle_marker_481cf6dfc9bc854ccc028b98aca1e7eb = L.circleMarker(
+                [11.44682824, 106.6539881],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_1a3b7abb07812e9be43126eaefa4cb52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd14584e34e195d20b0fc2829348195c = $(`<div id="html_fd14584e34e195d20b0fc2829348195c" style="width: 100.0%; height: 100.0%;">Công Ty TNHH CPV FOOD</div>`)[0];
+                popup_1a3b7abb07812e9be43126eaefa4cb52.setContent(html_fd14584e34e195d20b0fc2829348195c);
+            
+        
+
+        circle_marker_481cf6dfc9bc854ccc028b98aca1e7eb.bindPopup(popup_1a3b7abb07812e9be43126eaefa4cb52)
+        ;
+
+        
+    
+    
+            var circle_marker_714bccb6008b6c5ea041e070d344394f = L.circleMarker(
+                [11.4821669, 106.6045996],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_807f783e3706d97e234070dc84e30bfb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6910ef18f7ecaf8660b1fc5a2d8f6026 = $(`<div id="html_6910ef18f7ecaf8660b1fc5a2d8f6026" style="width: 100.0%; height: 100.0%;">Công ty cổ phần gỗ MDF VRG Dongwha</div>`)[0];
+                popup_807f783e3706d97e234070dc84e30bfb.setContent(html_6910ef18f7ecaf8660b1fc5a2d8f6026);
+            
+        
+
+        circle_marker_714bccb6008b6c5ea041e070d344394f.bindPopup(popup_807f783e3706d97e234070dc84e30bfb)
+        ;
+
+        
+    
+    
+            var circle_marker_d163156f0aa0fdcb59ca4a879073bb1d = L.circleMarker(
+                [11.44682824, 106.6539881],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_c5274d8cc437540c3c3aedd75b2467b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_452b4c0aa530483fddba173ace888874 = $(`<div id="html_452b4c0aa530483fddba173ace888874" style="width: 100.0%; height: 100.0%;">Công Ty Cổ Phần Chăn Nuôi C.P. Việt Nam-Chi Nhánh NM2 Tại Bình Phước</div>`)[0];
+                popup_c5274d8cc437540c3c3aedd75b2467b0.setContent(html_452b4c0aa530483fddba173ace888874);
+            
+        
+
+        circle_marker_d163156f0aa0fdcb59ca4a879073bb1d.bindPopup(popup_c5274d8cc437540c3c3aedd75b2467b0)
+        ;
+
+        
+    
+    
+            var poly_line_cb6289dbb708a14c8296f13727a30d2d = L.polyline(
+                [[10.79705976, 106.6483953], [11.44682824, 106.6539881], [11.44682824, 106.6539881], [11.4821669, 106.6045996], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+            var circle_marker_34089af147550eba07aa0ac6fcbd8acc = L.circleMarker(
+                [10.63472335, 106.7603026],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_74c3cf0103244d185c1a091731c380b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2661da0df73c3f8ce53ce2ddd482f70 = $(`<div id="html_a2661da0df73c3f8ce53ce2ddd482f70" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH THỰC PHẨM QUỐC TẾ NAM DƯƠNG</div>`)[0];
+                popup_74c3cf0103244d185c1a091731c380b3.setContent(html_a2661da0df73c3f8ce53ce2ddd482f70);
+            
+        
+
+        circle_marker_34089af147550eba07aa0ac6fcbd8acc.bindPopup(popup_74c3cf0103244d185c1a091731c380b3)
+        ;
+
+        
+    
+    
+            var circle_marker_7df84dac7c5aa69183ca076862e7044e = L.circleMarker(
+                [10.63947421, 106.7207355],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_9f2064e51bfa19b8048bbf4aa5a5677c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96e02e852420a4cf2aa3b2a2daf41caa = $(`<div id="html_96e02e852420a4cf2aa3b2a2daf41caa" style="width: 100.0%; height: 100.0%;">Công Ty Cổ Phần Hiệp Phú</div>`)[0];
+                popup_9f2064e51bfa19b8048bbf4aa5a5677c.setContent(html_96e02e852420a4cf2aa3b2a2daf41caa);
+            
+        
+
+        circle_marker_7df84dac7c5aa69183ca076862e7044e.bindPopup(popup_9f2064e51bfa19b8048bbf4aa5a5677c)
+        ;
+
+        
+    
+    
+            var circle_marker_0f644de73cd1a58b87e19d534ebbd7d7 = L.circleMarker(
+                [10.63455805, 106.7623016],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_b2ba21b117cad8b8b47dd5f57d38f062 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3eac846771d5ab3e8bf3b3dd48af201 = $(`<div id="html_d3eac846771d5ab3e8bf3b3dd48af201" style="width: 100.0%; height: 100.0%;">Chi Nhánh Công Ty TNHH Calofic tại Hiệp Phước, TPHCM</div>`)[0];
+                popup_b2ba21b117cad8b8b47dd5f57d38f062.setContent(html_d3eac846771d5ab3e8bf3b3dd48af201);
+            
+        
+
+        circle_marker_0f644de73cd1a58b87e19d534ebbd7d7.bindPopup(popup_b2ba21b117cad8b8b47dd5f57d38f062)
+        ;
+
+        
+    
+    
+            var poly_line_1c745f3e389cda8ac86ca65113365b68 = L.polyline(
+                [[10.79705976, 106.6483953], [10.63947421, 106.7207355], [10.63472335, 106.7603026], [10.63455805, 106.7623016], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+            var circle_marker_659b81971a097019fb58b47085163902 = L.circleMarker(
+                [10.74600203, 106.9616712],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_46b4c655f99764de8c6563eb584ebe62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f48e491ac78673e2051c210a5feb553 = $(`<div id="html_4f48e491ac78673e2051c210a5feb553" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Gia Hoàng Phú</div>`)[0];
+                popup_46b4c655f99764de8c6563eb584ebe62.setContent(html_4f48e491ac78673e2051c210a5feb553);
+            
+        
+
+        circle_marker_659b81971a097019fb58b47085163902.bindPopup(popup_46b4c655f99764de8c6563eb584ebe62)
+        ;
+
+        
+    
+    
+            var circle_marker_b892c9d538ea3b26b0fc017cc8fde633 = L.circleMarker(
+                [10.9215393, 106.8756969],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_571ab7c116a8b87481b886e46e7c07b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0fa7efcb531ca903f95f2e44fccdf224 = $(`<div id="html_0fa7efcb531ca903f95f2e44fccdf224" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Nestle’ Việt Nam</div>`)[0];
+                popup_571ab7c116a8b87481b886e46e7c07b1.setContent(html_0fa7efcb531ca903f95f2e44fccdf224);
+            
+        
+
+        circle_marker_b892c9d538ea3b26b0fc017cc8fde633.bindPopup(popup_571ab7c116a8b87481b886e46e7c07b1)
+        ;
+
+        
+    
+    
+            var circle_marker_65610aebf196c62e1c5169b87b3bdfc5 = L.circleMarker(
+                [10.85721355, 106.9731898],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_71df353ad630a87e4a821c2c12183cfc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3abb7bf355b5211bfa593667a1444095 = $(`<div id="html_3abb7bf355b5211bfa593667a1444095" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Kobelco Eco-Solutions Việt Nam</div>`)[0];
+                popup_71df353ad630a87e4a821c2c12183cfc.setContent(html_3abb7bf355b5211bfa593667a1444095);
+            
+        
+
+        circle_marker_65610aebf196c62e1c5169b87b3bdfc5.bindPopup(popup_71df353ad630a87e4a821c2c12183cfc)
+        ;
+
+        
+    
+    
+            var poly_line_f87bdf67117c69fe69b4858af251ab66 = L.polyline(
+                [[10.79705976, 106.6483953], [10.74600203, 106.9616712], [10.85721355, 106.9731898], [10.9215393, 106.8756969], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+            var circle_marker_f42d742ca3d82525f8650fd41e1519b1 = L.circleMarker(
+                [10.8440344, 106.711722],
+                {"bubblingMouseEvents": true, "color": "hotpink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hotpink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_4c3f1bba1da842494a76ea6b91630023 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3daad45cef4b3edc105de5be3f0f240 = $(`<div id="html_e3daad45cef4b3edc105de5be3f0f240" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Cơ Điện EMC</div>`)[0];
+                popup_4c3f1bba1da842494a76ea6b91630023.setContent(html_e3daad45cef4b3edc105de5be3f0f240);
+            
+        
+
+        circle_marker_f42d742ca3d82525f8650fd41e1519b1.bindPopup(popup_4c3f1bba1da842494a76ea6b91630023)
+        ;
+
+        
+    
+    
+            var circle_marker_05a3298fec02ac99b4aa35319bf685e3 = L.circleMarker(
+                [10.79336531, 106.7179052],
+                {"bubblingMouseEvents": true, "color": "hotpink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hotpink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_dde0dbfcd31831a1f7d43b8df432c1bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d4b60c04d51fd7985dd7f21d9c77904 = $(`<div id="html_8d4b60c04d51fd7985dd7f21d9c77904" style="width: 100.0%; height: 100.0%;">Công Ty TNHH KOASTAL ECO INDUSTRIES</div>`)[0];
+                popup_dde0dbfcd31831a1f7d43b8df432c1bc.setContent(html_8d4b60c04d51fd7985dd7f21d9c77904);
+            
+        
+
+        circle_marker_05a3298fec02ac99b4aa35319bf685e3.bindPopup(popup_dde0dbfcd31831a1f7d43b8df432c1bc)
+        ;
+
+        
+    
+    
+            var circle_marker_928008ad7cfb4069ae59c187f1e6d912 = L.circleMarker(
+                [10.74494047, 106.7331194],
+                {"bubblingMouseEvents": true, "color": "hotpink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hotpink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_1019b8117557e6cb5f798399b54b38cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28538a9b42d6e9177bfcc589dcda3127 = $(`<div id="html_28538a9b42d6e9177bfcc589dcda3127" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Công Nghệ Ptech</div>`)[0];
+                popup_1019b8117557e6cb5f798399b54b38cd.setContent(html_28538a9b42d6e9177bfcc589dcda3127);
+            
+        
+
+        circle_marker_928008ad7cfb4069ae59c187f1e6d912.bindPopup(popup_1019b8117557e6cb5f798399b54b38cd)
+        ;
+
+        
+    
+    
+            var circle_marker_5cbc5d48248af118260b95d8bd9eaae4 = L.circleMarker(
+                [10.81139668, 106.7068225],
+                {"bubblingMouseEvents": true, "color": "hotpink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hotpink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_2a8aac6ad6e5a0979fa537cad7ff7d24 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a988bba36fa946e6c8246642350f63b = $(`<div id="html_2a988bba36fa946e6c8246642350f63b" style="width: 100.0%; height: 100.0%;">Công ty TNHH Liconin</div>`)[0];
+                popup_2a8aac6ad6e5a0979fa537cad7ff7d24.setContent(html_2a988bba36fa946e6c8246642350f63b);
+            
+        
+
+        circle_marker_5cbc5d48248af118260b95d8bd9eaae4.bindPopup(popup_2a8aac6ad6e5a0979fa537cad7ff7d24)
+        ;
+
+        
+    
+    
+            var circle_marker_f7946a92bc2bba1050f3d6b94d165783 = L.circleMarker(
+                [10.8363183, 106.6590922],
+                {"bubblingMouseEvents": true, "color": "hotpink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "hotpink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_3073ca8d646975b96c7d22a78cb9e55a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ceae943b65ea66f6200ee62d994b7537 = $(`<div id="html_ceae943b65ea66f6200ee62d994b7537" style="width: 100.0%; height: 100.0%;">Công Ty Cổ Phần Tập Đoàn Đầu Tư-Thương Mại và Xây Dựng Vân Khánh</div>`)[0];
+                popup_3073ca8d646975b96c7d22a78cb9e55a.setContent(html_ceae943b65ea66f6200ee62d994b7537);
+            
+        
+
+        circle_marker_f7946a92bc2bba1050f3d6b94d165783.bindPopup(popup_3073ca8d646975b96c7d22a78cb9e55a)
+        ;
+
+        
+    
+    
+            var poly_line_853b8bcc89eaa0c5cd1d6f1828bf130c = L.polyline(
+                [[10.79705976, 106.6483953], [10.74494047, 106.7331194], [10.79336531, 106.7179052], [10.81139668, 106.7068225], [10.8440344, 106.711722], [10.8363183, 106.6590922], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "hotpink", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "hotpink", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+            var circle_marker_776f6502429e2de7ab695f1e450b430a = L.circleMarker(
+                [11.14340979, 106.6250312],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_d3cff1bb889df6ddd0289864ef393b9c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8852bf2d6d681798e7a11b61c16b4e8 = $(`<div id="html_e8852bf2d6d681798e7a11b61c16b4e8" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Thực Phẩm ORION VINA</div>`)[0];
+                popup_d3cff1bb889df6ddd0289864ef393b9c.setContent(html_e8852bf2d6d681798e7a11b61c16b4e8);
+            
+        
+
+        circle_marker_776f6502429e2de7ab695f1e450b430a.bindPopup(popup_d3cff1bb889df6ddd0289864ef393b9c)
+        ;
+
+        
+    
+    
+            var circle_marker_c8299aac3e32d333ade8c764ba1e148b = L.circleMarker(
+                [11.14634955, 106.6152797],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_142beb1273766275847defbe68e3a210 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3fd0994f652479fc463d84c2307386ab = $(`<div id="html_3fd0994f652479fc463d84c2307386ab" style="width: 100.0%; height: 100.0%;">Công Ty TNHH AKZONOBEL Việt Nam</div>`)[0];
+                popup_142beb1273766275847defbe68e3a210.setContent(html_3fd0994f652479fc463d84c2307386ab);
+            
+        
+
+        circle_marker_c8299aac3e32d333ade8c764ba1e148b.bindPopup(popup_142beb1273766275847defbe68e3a210)
+        ;
+
+        
+    
+    
+            var circle_marker_9ae825a913c7f581a37f8890520d459d = L.circleMarker(
+                [11.11329109, 106.6986887],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_b744b4f4b2d3cb19e98d90ce3e089136 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_60a8334631058faf20078acd6f3650ce = $(`<div id="html_60a8334631058faf20078acd6f3650ce" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Lập Văn</div>`)[0];
+                popup_b744b4f4b2d3cb19e98d90ce3e089136.setContent(html_60a8334631058faf20078acd6f3650ce);
+            
+        
+
+        circle_marker_9ae825a913c7f581a37f8890520d459d.bindPopup(popup_b744b4f4b2d3cb19e98d90ce3e089136)
+        ;
+
+        
+    
+    
+            var poly_line_d4b96b221db2ace29f0756bb2e486233 = L.polyline(
+                [[10.79705976, 106.6483953], [11.14634955, 106.6152797], [11.14340979, 106.6250312], [11.11329109, 106.6986887], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+            var circle_marker_16bdf0301d147ccce017896367bcaafd = L.circleMarker(
+                [11.39209762, 106.8315394],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_206dc6033057393fd450c865ed58f46a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5bf3f04d7fea81ce1c1730c3b1c59818 = $(`<div id="html_5bf3f04d7fea81ce1c1730c3b1c59818" style="width: 100.0%; height: 100.0%;">Công Ty  CP kim Tín MDF</div>`)[0];
+                popup_206dc6033057393fd450c865ed58f46a.setContent(html_5bf3f04d7fea81ce1c1730c3b1c59818);
+            
+        
+
+        circle_marker_16bdf0301d147ccce017896367bcaafd.bindPopup(popup_206dc6033057393fd450c865ed58f46a)
+        ;
+
+        
+    
+    
+            var circle_marker_b4b05e0ae76e1b27084cfe8f943c4921 = L.circleMarker(
+                [11.38691191, 106.8325424],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_bb9dd1c03dac980b2506c66b070ff31a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b53d69f944e21b2cc1415a752e59e81 = $(`<div id="html_8b53d69f944e21b2cc1415a752e59e81" style="width: 100.0%; height: 100.0%;">Công Ty Cổ Phần Kim Tín MDF Đồng Phú</div>`)[0];
+                popup_bb9dd1c03dac980b2506c66b070ff31a.setContent(html_8b53d69f944e21b2cc1415a752e59e81);
+            
+        
+
+        circle_marker_b4b05e0ae76e1b27084cfe8f943c4921.bindPopup(popup_bb9dd1c03dac980b2506c66b070ff31a)
+        ;
+
+        
+    
+    
+            var poly_line_992704e69e667aae78e45f876b550cbf = L.polyline(
+                [[10.79705976, 106.6483953], [11.39209762, 106.8315394], [11.38691191, 106.8325424], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+            var circle_marker_d2c280b3bf75c3e09acc31b21a401a96 = L.circleMarker(
+                [10.73521632, 107.1041681],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+    
+        var popup_b292a9ab89f83c9451a301259d3d8d26 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9928e222d2e204d13c9169e68b535be0 = $(`<div id="html_9928e222d2e204d13c9169e68b535be0" style="width: 100.0%; height: 100.0%;">CÔNG TY CỔ PHẦN DỊCH VỤ CẤP NƯỚC HỒ CẦU MỚI</div>`)[0];
+                popup_b292a9ab89f83c9451a301259d3d8d26.setContent(html_9928e222d2e204d13c9169e68b535be0);
+            
+        
+
+        circle_marker_d2c280b3bf75c3e09acc31b21a401a96.bindPopup(popup_b292a9ab89f83c9451a301259d3d8d26)
+        ;
+
+        
+    
+    
+            var poly_line_7005b935ea16e9c5c01d4c55dbe1b202 = L.polyline(
+                [[10.79705976, 106.6483953], [10.73521632, 107.1041681], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a5a7b490d142c2ba59ca439b843f985f);
+        
+</script>
+</html>
