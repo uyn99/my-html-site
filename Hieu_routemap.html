@@ -1,0 +1,5813 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_28a5b46ff74d2431a52b6e7d7a114982 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_28a5b46ff74d2431a52b6e7d7a114982" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_28a5b46ff74d2431a52b6e7d7a114982 = L.map(
+                "map_28a5b46ff74d2431a52b6e7d7a114982",
+                {
+                    center: [10.79705976, 106.6483953],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b04562f17cbab3934b1d5fbc97f269c2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b04562f17cbab3934b1d5fbc97f269c2.addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var marker_95aae6d54609043248c21d10f3cc1d2e = L.marker(
+                [10.79705976, 106.6483953],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_b1870570ee0497091d2bba4a6a01fd90 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5008f78f460e665bcc8693823310f4de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d226d39a8bc59bc998e97e6cb71fe7de = $(`<div id="html_d226d39a8bc59bc998e97e6cb71fe7de" style="width: 100.0%; height: 100.0%;">START - Công ty Cổ phần Quốc Tế Thiền Sinh Thái</div>`)[0];
+                popup_5008f78f460e665bcc8693823310f4de.setContent(html_d226d39a8bc59bc998e97e6cb71fe7de);
+            
+        
+
+        marker_95aae6d54609043248c21d10f3cc1d2e.bindPopup(popup_5008f78f460e665bcc8693823310f4de)
+        ;
+
+        
+    
+    
+                marker_95aae6d54609043248c21d10f3cc1d2e.setIcon(icon_b1870570ee0497091d2bba4a6a01fd90);
+            
+    
+            var poly_line_28a3540d89b04519724cb497a5f70650 = L.polyline(
+                [[10.79705976, 106.6483953], [10.88439371, 106.7503842], [10.88779109, 106.7527183], [10.89448, 106.74493], [10.91519013, 106.7450849], [10.92642194, 106.757121], [10.93071058, 106.7500604], [10.92866678, 106.7365051], [10.93747987, 106.7151457], [10.93976, 106.71124], [10.91284, 106.72583], [10.90661828, 106.7309964], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#40e60c", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#40e60c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_28a3540d89b04519724cb497a5f70650.bindTooltip(
+                `<div>
+                     Cluster 0 - #ab448e
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a601b614dd23047dd2187804c5c92d99 = L.marker(
+                [10.88439371, 106.7503842],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_d13ac3f700515ca53355b69f20af4642 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4d2801a708faa66fde5d75883973a9a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d1b1ab8a8cee8cb8e49891575802efc = $(`<div id="html_0d1b1ab8a8cee8cb8e49891575802efc" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH SYNTHOMER VIỆT NAM - Top C</div>`)[0];
+                popup_4d2801a708faa66fde5d75883973a9a8.setContent(html_0d1b1ab8a8cee8cb8e49891575802efc);
+            
+        
+
+        marker_a601b614dd23047dd2187804c5c92d99.bindPopup(popup_4d2801a708faa66fde5d75883973a9a8)
+        ;
+
+        
+    
+    
+                marker_a601b614dd23047dd2187804c5c92d99.setIcon(icon_d13ac3f700515ca53355b69f20af4642);
+            
+    
+            var marker_7dcac3dcc3c551a2e16b2ee67bcb1271 = L.marker(
+                [10.93976, 106.71124],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_86e3aaaba4121fa36960350ffc234c2d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ed7d764b33643b952feb83ed30779546 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4837abd1fdaaa9ee74cd75f917624288 = $(`<div id="html_4837abd1fdaaa9ee74cd75f917624288" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Công Nghệ Thiên Hưng - Top C</div>`)[0];
+                popup_ed7d764b33643b952feb83ed30779546.setContent(html_4837abd1fdaaa9ee74cd75f917624288);
+            
+        
+
+        marker_7dcac3dcc3c551a2e16b2ee67bcb1271.bindPopup(popup_ed7d764b33643b952feb83ed30779546)
+        ;
+
+        
+    
+    
+                marker_7dcac3dcc3c551a2e16b2ee67bcb1271.setIcon(icon_86e3aaaba4121fa36960350ffc234c2d);
+            
+    
+            var marker_6545f2057b80095c876d05f4022a6bc7 = L.marker(
+                [10.90661828, 106.7309964],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_674088bae2421e393830b32afa4217f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6a232a27cf97fd1c6ac352614064f9f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_001e7e83ac16e40d5b0058fa32829987 = $(`<div id="html_001e7e83ac16e40d5b0058fa32829987" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Một Thành Viên Dịch Vụ Trấu Việt Thuận An - Top B</div>`)[0];
+                popup_6a232a27cf97fd1c6ac352614064f9f8.setContent(html_001e7e83ac16e40d5b0058fa32829987);
+            
+        
+
+        marker_6545f2057b80095c876d05f4022a6bc7.bindPopup(popup_6a232a27cf97fd1c6ac352614064f9f8)
+        ;
+
+        
+    
+    
+                marker_6545f2057b80095c876d05f4022a6bc7.setIcon(icon_674088bae2421e393830b32afa4217f4);
+            
+    
+            var marker_05bddc6cf2c012f95f03c6ba13f862c2 = L.marker(
+                [10.92866678, 106.7365051],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_153cbf9ace4f91cf191cd3b3bf70559d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5fd6b9f349f7c0a80ebabc972fe74a42 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b66e9c7eee478f746ef220b7ab73fb5a = $(`<div id="html_b66e9c7eee478f746ef220b7ab73fb5a" style="width: 100.0%; height: 100.0%;">Công Ty TNHH CHYANG SHENG Việt Nam - Top B</div>`)[0];
+                popup_5fd6b9f349f7c0a80ebabc972fe74a42.setContent(html_b66e9c7eee478f746ef220b7ab73fb5a);
+            
+        
+
+        marker_05bddc6cf2c012f95f03c6ba13f862c2.bindPopup(popup_5fd6b9f349f7c0a80ebabc972fe74a42)
+        ;
+
+        
+    
+    
+                marker_05bddc6cf2c012f95f03c6ba13f862c2.setIcon(icon_153cbf9ace4f91cf191cd3b3bf70559d);
+            
+    
+            var marker_91376cc7afa1b4759a572698ac281e9e = L.marker(
+                [10.93071058, 106.7500604],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_4fd45d791e9eac9f9e94780f5f0c3447 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ba7308fd01c70a7900649c104ce4aff1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3f6c59fdb5565842920ac9d51331680 = $(`<div id="html_c3f6c59fdb5565842920ac9d51331680" style="width: 100.0%; height: 100.0%;">Công Ty Kính Nổi Viglacera - Chi Nhánh Tổng Công Ty Viglacera - Ctcp - Top C</div>`)[0];
+                popup_ba7308fd01c70a7900649c104ce4aff1.setContent(html_c3f6c59fdb5565842920ac9d51331680);
+            
+        
+
+        marker_91376cc7afa1b4759a572698ac281e9e.bindPopup(popup_ba7308fd01c70a7900649c104ce4aff1)
+        ;
+
+        
+    
+    
+                marker_91376cc7afa1b4759a572698ac281e9e.setIcon(icon_4fd45d791e9eac9f9e94780f5f0c3447);
+            
+    
+            var marker_f25cc9c96ef2fe33c91bbb06534b62d7 = L.marker(
+                [10.91284, 106.72583],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_eaac57621dcd38f101c69b93ed0502d9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_65ae683b98c67415c7c99a8805d87876 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e828f7b2820f879032d35829d9fc6f67 = $(`<div id="html_e828f7b2820f879032d35829d9fc6f67" style="width: 100.0%; height: 100.0%;">Công Ty Cổ Phần Cơ Khí Đồng Lực - Top A</div>`)[0];
+                popup_65ae683b98c67415c7c99a8805d87876.setContent(html_e828f7b2820f879032d35829d9fc6f67);
+            
+        
+
+        marker_f25cc9c96ef2fe33c91bbb06534b62d7.bindPopup(popup_65ae683b98c67415c7c99a8805d87876)
+        ;
+
+        
+    
+    
+                marker_f25cc9c96ef2fe33c91bbb06534b62d7.setIcon(icon_eaac57621dcd38f101c69b93ed0502d9);
+            
+    
+            var marker_47751c3871b795488a0fb38e7b6c424d = L.marker(
+                [10.92642194, 106.757121],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_d61ce62992201e07e10701c45d2b6dd1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b3e25927cbe6ffbda52d85ffe9125031 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_143a1096733cd8eac98851321a247f6d = $(`<div id="html_143a1096733cd8eac98851321a247f6d" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH CƠ NHIỆT THIÊN PHÁT - Top C</div>`)[0];
+                popup_b3e25927cbe6ffbda52d85ffe9125031.setContent(html_143a1096733cd8eac98851321a247f6d);
+            
+        
+
+        marker_47751c3871b795488a0fb38e7b6c424d.bindPopup(popup_b3e25927cbe6ffbda52d85ffe9125031)
+        ;
+
+        
+    
+    
+                marker_47751c3871b795488a0fb38e7b6c424d.setIcon(icon_d61ce62992201e07e10701c45d2b6dd1);
+            
+    
+            var marker_aa566dc10b869d9c43c6484995ebd7b3 = L.marker(
+                [10.91519013, 106.7450849],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_0a3e0637e849f3ce7190b31c39a911d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a507eeeba98534a83603993ba5ad5edd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61ed40bdb175a4522772aa22ded467b4 = $(`<div id="html_61ed40bdb175a4522772aa22ded467b4" style="width: 100.0%; height: 100.0%;">Công ty TNHH Olmix Asialand Việt Nam - Top C</div>`)[0];
+                popup_a507eeeba98534a83603993ba5ad5edd.setContent(html_61ed40bdb175a4522772aa22ded467b4);
+            
+        
+
+        marker_aa566dc10b869d9c43c6484995ebd7b3.bindPopup(popup_a507eeeba98534a83603993ba5ad5edd)
+        ;
+
+        
+    
+    
+                marker_aa566dc10b869d9c43c6484995ebd7b3.setIcon(icon_0a3e0637e849f3ce7190b31c39a911d8);
+            
+    
+            var marker_2a36550c255c561d45d0a51cd01c05b2 = L.marker(
+                [10.93747987, 106.7151457],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_59a680756801f86d1ad99c6fddf4090a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c3eeaa12fb12a137947c9eeb3324d72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67d2f38a331b61cacb635d0c2ca5b97a = $(`<div id="html_67d2f38a331b61cacb635d0c2ca5b97a" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Khí Công Nghiệp MESSER Việt Nam - Top C</div>`)[0];
+                popup_5c3eeaa12fb12a137947c9eeb3324d72.setContent(html_67d2f38a331b61cacb635d0c2ca5b97a);
+            
+        
+
+        marker_2a36550c255c561d45d0a51cd01c05b2.bindPopup(popup_5c3eeaa12fb12a137947c9eeb3324d72)
+        ;
+
+        
+    
+    
+                marker_2a36550c255c561d45d0a51cd01c05b2.setIcon(icon_59a680756801f86d1ad99c6fddf4090a);
+            
+    
+            var marker_633298960ff266dd3b332e1e4a61f119 = L.marker(
+                [10.88779109, 106.7527183],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_d078cddfff17f786a93fbd8fd738e113 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_12920fe4a0b820447cf2a88034f724d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_084d9ddd4f5e50b12fa497a10ae83f8b = $(`<div id="html_084d9ddd4f5e50b12fa497a10ae83f8b" style="width: 100.0%; height: 100.0%;">Công Ty Cổ Phần Nhựa Bình Minh - Chi Nhánh Nhựa Bình Minh Bình Dương - Top B</div>`)[0];
+                popup_12920fe4a0b820447cf2a88034f724d7.setContent(html_084d9ddd4f5e50b12fa497a10ae83f8b);
+            
+        
+
+        marker_633298960ff266dd3b332e1e4a61f119.bindPopup(popup_12920fe4a0b820447cf2a88034f724d7)
+        ;
+
+        
+    
+    
+                marker_633298960ff266dd3b332e1e4a61f119.setIcon(icon_d078cddfff17f786a93fbd8fd738e113);
+            
+    
+            var marker_e11c64ba7b39a112c05e72886be8caa8 = L.marker(
+                [10.89448, 106.74493],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_51cfe3edf1406b8150c532c792589d12 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1189456727d96be750db4a47024d8733 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf78ea260a97e6815b15895df6432e7d = $(`<div id="html_cf78ea260a97e6815b15895df6432e7d" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Highland Dragon - Top B</div>`)[0];
+                popup_1189456727d96be750db4a47024d8733.setContent(html_cf78ea260a97e6815b15895df6432e7d);
+            
+        
+
+        marker_e11c64ba7b39a112c05e72886be8caa8.bindPopup(popup_1189456727d96be750db4a47024d8733)
+        ;
+
+        
+    
+    
+                marker_e11c64ba7b39a112c05e72886be8caa8.setIcon(icon_51cfe3edf1406b8150c532c792589d12);
+            
+    
+            var poly_line_c07c13c33b0c65007b6d8c63dc139903 = L.polyline(
+                [[10.79705976, 106.6483953], [15.11947798, 108.7928631], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#259f0b", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#259f0b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_c07c13c33b0c65007b6d8c63dc139903.bindTooltip(
+                `<div>
+                     Cluster 1 - #1ae709
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_24f27cb514e3033ebc1940f3ecac82c4 = L.marker(
+                [15.11947798, 108.7928631],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_f1a7aa5b7ed8d221b134e02a0a96b867 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_29345c04f7279e56ad8e44e7bab97f69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1823ba8b44e4c7dafd06a39fa167c59b = $(`<div id="html_1823ba8b44e4c7dafd06a39fa167c59b" style="width: 100.0%; height: 100.0%;">CÔNG TY CỔ PHẦN DỊCH VỤ DẦU KHÍ VINACHEM - Top A</div>`)[0];
+                popup_29345c04f7279e56ad8e44e7bab97f69.setContent(html_1823ba8b44e4c7dafd06a39fa167c59b);
+            
+        
+
+        marker_24f27cb514e3033ebc1940f3ecac82c4.bindPopup(popup_29345c04f7279e56ad8e44e7bab97f69)
+        ;
+
+        
+    
+    
+                marker_24f27cb514e3033ebc1940f3ecac82c4.setIcon(icon_f1a7aa5b7ed8d221b134e02a0a96b867);
+            
+    
+            var poly_line_da03066e5a466c2696ea1eb16b7e0894 = L.polyline(
+                [[10.79705976, 106.6483953], [12.14725578, 109.0697753], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#8125dd", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8125dd", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_da03066e5a466c2696ea1eb16b7e0894.bindTooltip(
+                `<div>
+                     Cluster 2 - #8d9def
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_642d3edf71923d90e47ce7c54da183eb = L.marker(
+                [12.14725578, 109.0697753],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_eef7fb25e9617f661817bc4a58bc7ae0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f5050889571d6ba20c147c97aa52dc66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ff38fdb11a19cde9047737015f7b0ef = $(`<div id="html_7ff38fdb11a19cde9047737015f7b0ef" style="width: 100.0%; height: 100.0%;">Công Ty TNHH SCALEAQ - Top C</div>`)[0];
+                popup_f5050889571d6ba20c147c97aa52dc66.setContent(html_7ff38fdb11a19cde9047737015f7b0ef);
+            
+        
+
+        marker_642d3edf71923d90e47ce7c54da183eb.bindPopup(popup_f5050889571d6ba20c147c97aa52dc66)
+        ;
+
+        
+    
+    
+                marker_642d3edf71923d90e47ce7c54da183eb.setIcon(icon_eef7fb25e9617f661817bc4a58bc7ae0);
+            
+    
+            var poly_line_e20ff51a66253cb8b666329097201bd5 = L.polyline(
+                [[10.79705976, 106.6483953], [10.53263325, 107.0329502], [10.54899424, 107.0505044], [10.57712013, 107.0652169], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#1457ab", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1457ab", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_e20ff51a66253cb8b666329097201bd5.bindTooltip(
+                `<div>
+                     Cluster 3 - #a5ba49
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_028d2f611d9fe897f5acf6b6556dee72 = L.marker(
+                [10.53263325, 107.0329502],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_a3a86fa988e41e5fbf25a1db8e41d830 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_da433e23e0f36f31b4806343b7a3fec0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6bad31e6fee09e6ee752d7ca87878888 = $(`<div id="html_6bad31e6fee09e6ee752d7ca87878888" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Hóa Chất AGC Việt Nam - Top C</div>`)[0];
+                popup_da433e23e0f36f31b4806343b7a3fec0.setContent(html_6bad31e6fee09e6ee752d7ca87878888);
+            
+        
+
+        marker_028d2f611d9fe897f5acf6b6556dee72.bindPopup(popup_da433e23e0f36f31b4806343b7a3fec0)
+        ;
+
+        
+    
+    
+                marker_028d2f611d9fe897f5acf6b6556dee72.setIcon(icon_a3a86fa988e41e5fbf25a1db8e41d830);
+            
+    
+            var marker_f14920041ed440cfb7bcfb4919022447 = L.marker(
+                [10.54899424, 107.0505044],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_14af5af6122b78801af47d3e5e362445 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1193d2e7b30416cb48f10a72e8201418 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d45fbb9bc9f56b8ffbbdab608391c172 = $(`<div id="html_d45fbb9bc9f56b8ffbbdab608391c172" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Kính Nổi Siêu Trắng Phú Mỹ - Top B</div>`)[0];
+                popup_1193d2e7b30416cb48f10a72e8201418.setContent(html_d45fbb9bc9f56b8ffbbdab608391c172);
+            
+        
+
+        marker_f14920041ed440cfb7bcfb4919022447.bindPopup(popup_1193d2e7b30416cb48f10a72e8201418)
+        ;
+
+        
+    
+    
+                marker_f14920041ed440cfb7bcfb4919022447.setIcon(icon_14af5af6122b78801af47d3e5e362445);
+            
+    
+            var marker_d01e3552bc38e40e43a0c26bfd499441 = L.marker(
+                [10.57712013, 107.0652169],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_78149d5da9aae1e5076f04f40932eeee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ff8abc1989d3322060e7c521d63974c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c016a109435eaf5109ddd4260d143e84 = $(`<div id="html_c016a109435eaf5109ddd4260d143e84" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH DỊCH VỤ KỸ THUẬT VÀ THIẾT BỊ CÔNG NGHIỆP VŨ GIA - Top B</div>`)[0];
+                popup_ff8abc1989d3322060e7c521d63974c6.setContent(html_c016a109435eaf5109ddd4260d143e84);
+            
+        
+
+        marker_d01e3552bc38e40e43a0c26bfd499441.bindPopup(popup_ff8abc1989d3322060e7c521d63974c6)
+        ;
+
+        
+    
+    
+                marker_d01e3552bc38e40e43a0c26bfd499441.setIcon(icon_78149d5da9aae1e5076f04f40932eeee);
+            
+    
+            var poly_line_f64204c39cf3df6dbe9d13dba8ada8c5 = L.polyline(
+                [[10.79705976, 106.6483953], [10.8072415, 106.6684351], [10.80982314, 106.6679698], [10.8158287, 106.6798902], [10.80334033, 106.6955401], [10.81487624, 106.7084374], [10.81741347, 106.7122062], [10.83152343, 106.6904945], [10.84952568, 106.6771261], [10.83592, 106.67197], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#23d094", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#23d094", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_f64204c39cf3df6dbe9d13dba8ada8c5.bindTooltip(
+                `<div>
+                     Cluster 4 - #52afc1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_03368741540a22653cf6a2851f517f05 = L.marker(
+                [10.80982314, 106.6679698],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_6d7820fa3b1fa84abea9e0f8fc9d55ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_04730bd0a75774be9f7d5ab5832f5c2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b09ced63596d00e3fb6cc5ea4b920329 = $(`<div id="html_b09ced63596d00e3fb6cc5ea4b920329" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH THIẾT BỊ CÔNG NGHIỆP BMQ - Top A</div>`)[0];
+                popup_04730bd0a75774be9f7d5ab5832f5c2f.setContent(html_b09ced63596d00e3fb6cc5ea4b920329);
+            
+        
+
+        marker_03368741540a22653cf6a2851f517f05.bindPopup(popup_04730bd0a75774be9f7d5ab5832f5c2f)
+        ;
+
+        
+    
+    
+                marker_03368741540a22653cf6a2851f517f05.setIcon(icon_6d7820fa3b1fa84abea9e0f8fc9d55ad);
+            
+    
+            var marker_09499875c7f359291e1c270a93405175 = L.marker(
+                [10.8072415, 106.6684351],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_c68183aa12ecdf974a393ad9b98d0cd8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d2b102cff9d1b73fc485d81daf2d9d78 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5a34f963fcfe0f37cd5cc8ea67a1cf0 = $(`<div id="html_d5a34f963fcfe0f37cd5cc8ea67a1cf0" style="width: 100.0%; height: 100.0%;">Công ty Cổ phần nước Hoàng Minh - Top C</div>`)[0];
+                popup_d2b102cff9d1b73fc485d81daf2d9d78.setContent(html_d5a34f963fcfe0f37cd5cc8ea67a1cf0);
+            
+        
+
+        marker_09499875c7f359291e1c270a93405175.bindPopup(popup_d2b102cff9d1b73fc485d81daf2d9d78)
+        ;
+
+        
+    
+    
+                marker_09499875c7f359291e1c270a93405175.setIcon(icon_c68183aa12ecdf974a393ad9b98d0cd8);
+            
+    
+            var marker_46e2e00f545b93c5dd0cb8efdee76dab = L.marker(
+                [10.8158287, 106.6798902],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_4745627b4ac2359d266ce3ca34e60505 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_236e852062964aa5926d2569a30c269b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a840ef9959188ae2735718f438e23203 = $(`<div id="html_a840ef9959188ae2735718f438e23203" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Hoàn Vũ V.N - Top B</div>`)[0];
+                popup_236e852062964aa5926d2569a30c269b.setContent(html_a840ef9959188ae2735718f438e23203);
+            
+        
+
+        marker_46e2e00f545b93c5dd0cb8efdee76dab.bindPopup(popup_236e852062964aa5926d2569a30c269b)
+        ;
+
+        
+    
+    
+                marker_46e2e00f545b93c5dd0cb8efdee76dab.setIcon(icon_4745627b4ac2359d266ce3ca34e60505);
+            
+    
+            var marker_ee3e1b5be4e9720af1328adad4750d1a = L.marker(
+                [10.83152343, 106.6904945],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_411a5752a8fd68a112e16ae5cd574dc3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3dc70a6a4dff1861920d133d678f358a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_649bcdf3fc9416d91da5a59ee1b20bc0 = $(`<div id="html_649bcdf3fc9416d91da5a59ee1b20bc0" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Thương Mại Và Sản Xuất Song Toàn - Top C</div>`)[0];
+                popup_3dc70a6a4dff1861920d133d678f358a.setContent(html_649bcdf3fc9416d91da5a59ee1b20bc0);
+            
+        
+
+        marker_ee3e1b5be4e9720af1328adad4750d1a.bindPopup(popup_3dc70a6a4dff1861920d133d678f358a)
+        ;
+
+        
+    
+    
+                marker_ee3e1b5be4e9720af1328adad4750d1a.setIcon(icon_411a5752a8fd68a112e16ae5cd574dc3);
+            
+    
+            var marker_04552b60ba5f5b93d83bfefd3535480e = L.marker(
+                [10.83592, 106.67197],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_97152f88039b8c453dbe830366773287 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8c0eca6f40b64d756249cff055b88159 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f521bd89e16df30123534237b501e03e = $(`<div id="html_f521bd89e16df30123534237b501e03e" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Cơ Khí Minh Quân - Top C</div>`)[0];
+                popup_8c0eca6f40b64d756249cff055b88159.setContent(html_f521bd89e16df30123534237b501e03e);
+            
+        
+
+        marker_04552b60ba5f5b93d83bfefd3535480e.bindPopup(popup_8c0eca6f40b64d756249cff055b88159)
+        ;
+
+        
+    
+    
+                marker_04552b60ba5f5b93d83bfefd3535480e.setIcon(icon_97152f88039b8c453dbe830366773287);
+            
+    
+            var marker_d18ff94c34703b1876a4d2ce8375a42e = L.marker(
+                [10.81741347, 106.7122062],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_59798c77b9804e9846c4b449f661c2c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f42adf1c5919d2dd10b401a79d536b44 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7d0de0562dfc14b814fe56d6c62ac90 = $(`<div id="html_a7d0de0562dfc14b814fe56d6c62ac90" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Trần Quang Việt Nam - Top C</div>`)[0];
+                popup_f42adf1c5919d2dd10b401a79d536b44.setContent(html_a7d0de0562dfc14b814fe56d6c62ac90);
+            
+        
+
+        marker_d18ff94c34703b1876a4d2ce8375a42e.bindPopup(popup_f42adf1c5919d2dd10b401a79d536b44)
+        ;
+
+        
+    
+    
+                marker_d18ff94c34703b1876a4d2ce8375a42e.setIcon(icon_59798c77b9804e9846c4b449f661c2c0);
+            
+    
+            var marker_27fec45c39fad1c8f28598ffc2dd6376 = L.marker(
+                [10.84952568, 106.6771261],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_521a7fbe3192c47c4ab5840d582c2080 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8a8509cfc25fb78716d38c778ea0e35d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_023e6540d0fcc07a0e087b526caa3b50 = $(`<div id="html_023e6540d0fcc07a0e087b526caa3b50" style="width: 100.0%; height: 100.0%;">Chi Nhánh Miền Nam Công Ty CP Nồi Hơi - Thiết Bị Áp Lực Đông Anh - Top C</div>`)[0];
+                popup_8a8509cfc25fb78716d38c778ea0e35d.setContent(html_023e6540d0fcc07a0e087b526caa3b50);
+            
+        
+
+        marker_27fec45c39fad1c8f28598ffc2dd6376.bindPopup(popup_8a8509cfc25fb78716d38c778ea0e35d)
+        ;
+
+        
+    
+    
+                marker_27fec45c39fad1c8f28598ffc2dd6376.setIcon(icon_521a7fbe3192c47c4ab5840d582c2080);
+            
+    
+            var marker_1931f1e1d8c371051620d2ef9aa1ce49 = L.marker(
+                [10.80334033, 106.6955401],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_721eca615eed590bc283222b75835448 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7faadd28f00f34b8848aec010db1887b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c8f6c3611666beafb27b023214d82b5 = $(`<div id="html_0c8f6c3611666beafb27b023214d82b5" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Nhà Máy BIA HEINEKEN Việt Nam - Top C</div>`)[0];
+                popup_7faadd28f00f34b8848aec010db1887b.setContent(html_0c8f6c3611666beafb27b023214d82b5);
+            
+        
+
+        marker_1931f1e1d8c371051620d2ef9aa1ce49.bindPopup(popup_7faadd28f00f34b8848aec010db1887b)
+        ;
+
+        
+    
+    
+                marker_1931f1e1d8c371051620d2ef9aa1ce49.setIcon(icon_721eca615eed590bc283222b75835448);
+            
+    
+            var marker_4db2ebf368f05e057ad77e01b2f54c33 = L.marker(
+                [10.81487624, 106.7084374],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_749afd4355be21b56cf990d7215703a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_102a8a54f9b5c1e249c9890eb5592c03 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18a662546f6ad03d3706684cc0b49059 = $(`<div id="html_18a662546f6ad03d3706684cc0b49059" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Năng Lượng Nhiệt Thành Thành Công - Top A</div>`)[0];
+                popup_102a8a54f9b5c1e249c9890eb5592c03.setContent(html_18a662546f6ad03d3706684cc0b49059);
+            
+        
+
+        marker_4db2ebf368f05e057ad77e01b2f54c33.bindPopup(popup_102a8a54f9b5c1e249c9890eb5592c03)
+        ;
+
+        
+    
+    
+                marker_4db2ebf368f05e057ad77e01b2f54c33.setIcon(icon_749afd4355be21b56cf990d7215703a3);
+            
+    
+            var poly_line_4926646611640041455cc5e6bd827469 = L.polyline(
+                [[10.79705976, 106.6483953], [10.89843459, 106.8927434], [10.90700993, 106.9182693], [10.92633545, 106.9303664], [10.86658239, 106.9268514], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#001cdb", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#001cdb", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_4926646611640041455cc5e6bd827469.bindTooltip(
+                `<div>
+                     Cluster 5 - #a20f49
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7cb956fc36476f5b33c5413c5284722f = L.marker(
+                [10.86658239, 106.9268514],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_a8826acc06573ede0f38598aa5d9e3ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e9117acec8be226dab6231773389b442 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4da4c0a8d0eb19de0b0826be2724dd5 = $(`<div id="html_b4da4c0a8d0eb19de0b0826be2724dd5" style="width: 100.0%; height: 100.0%;">Công ty Cổ Phần Gạch Men Ý Mỹ - Top C</div>`)[0];
+                popup_e9117acec8be226dab6231773389b442.setContent(html_b4da4c0a8d0eb19de0b0826be2724dd5);
+            
+        
+
+        marker_7cb956fc36476f5b33c5413c5284722f.bindPopup(popup_e9117acec8be226dab6231773389b442)
+        ;
+
+        
+    
+    
+                marker_7cb956fc36476f5b33c5413c5284722f.setIcon(icon_a8826acc06573ede0f38598aa5d9e3ed);
+            
+    
+            var marker_0c68cd88b35ab1e1a8ce5da29724ba25 = L.marker(
+                [10.92633545, 106.9303664],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_a2593b697cad4d9fb97beea77e784ac1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d571db170d8078ef4d310c670c7ab80 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ece25ee4b1e4bf6114068aebdf35f2e = $(`<div id="html_9ece25ee4b1e4bf6114068aebdf35f2e" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Trung Anh Dũng - Top C</div>`)[0];
+                popup_6d571db170d8078ef4d310c670c7ab80.setContent(html_9ece25ee4b1e4bf6114068aebdf35f2e);
+            
+        
+
+        marker_0c68cd88b35ab1e1a8ce5da29724ba25.bindPopup(popup_6d571db170d8078ef4d310c670c7ab80)
+        ;
+
+        
+    
+    
+                marker_0c68cd88b35ab1e1a8ce5da29724ba25.setIcon(icon_a2593b697cad4d9fb97beea77e784ac1);
+            
+    
+            var marker_8c281459f0cf79aa4305c51df22f4581 = L.marker(
+                [10.89843459, 106.8927434],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_84b548691dfabca23f754bdadf2c51fd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_58046b32cd38e16ad91ab394d596c7c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab2595171a097acab192ca084baa9ca1 = $(`<div id="html_ab2595171a097acab192ca084baa9ca1" style="width: 100.0%; height: 100.0%;">Công Ty TNHH MTV Cơ Khí Xây Dựng Sơn Tùng - Top C</div>`)[0];
+                popup_58046b32cd38e16ad91ab394d596c7c4.setContent(html_ab2595171a097acab192ca084baa9ca1);
+            
+        
+
+        marker_8c281459f0cf79aa4305c51df22f4581.bindPopup(popup_58046b32cd38e16ad91ab394d596c7c4)
+        ;
+
+        
+    
+    
+                marker_8c281459f0cf79aa4305c51df22f4581.setIcon(icon_84b548691dfabca23f754bdadf2c51fd);
+            
+    
+            var marker_bbe3543fc5f65ec9fdfa68ad3fb04538 = L.marker(
+                [10.90700993, 106.9182693],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_b9dc48da38aa9910ae1e4cbb0ef21ec5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_286414d3d70e211f3c191cef92ac75ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e602480698d09cf43844b1b7e58dae19 = $(`<div id="html_e602480698d09cf43844b1b7e58dae19" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Cơ Khí - Xây Dựng -Thương Mại Tân Cường Phát Đồng Nai - Top C</div>`)[0];
+                popup_286414d3d70e211f3c191cef92ac75ed.setContent(html_e602480698d09cf43844b1b7e58dae19);
+            
+        
+
+        marker_bbe3543fc5f65ec9fdfa68ad3fb04538.bindPopup(popup_286414d3d70e211f3c191cef92ac75ed)
+        ;
+
+        
+    
+    
+                marker_bbe3543fc5f65ec9fdfa68ad3fb04538.setIcon(icon_b9dc48da38aa9910ae1e4cbb0ef21ec5);
+            
+    
+            var poly_line_7c521da4c8566fc692024a34acd31686 = L.polyline(
+                [[10.79705976, 106.6483953], [11.24730003, 106.6033827], [11.2845898, 106.5834042], [11.29562984, 106.5768242], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#89b537", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#89b537", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_7c521da4c8566fc692024a34acd31686.bindTooltip(
+                `<div>
+                     Cluster 6 - #2168bd
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f67bd8a63b2ec74ef33a525fcad1085a = L.marker(
+                [11.24730003, 106.6033827],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_cd881fd06fbf8dea6c40c3e5b95f7433 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7cdb97e9fb2b2fcca2bc1ec968085c7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab9443d6caab1bfa06d20e2c504db905 = $(`<div id="html_ab9443d6caab1bfa06d20e2c504db905" style="width: 100.0%; height: 100.0%;">Công Ty Cổ Phần Găng Việt - Top C</div>`)[0];
+                popup_7cdb97e9fb2b2fcca2bc1ec968085c7f.setContent(html_ab9443d6caab1bfa06d20e2c504db905);
+            
+        
+
+        marker_f67bd8a63b2ec74ef33a525fcad1085a.bindPopup(popup_7cdb97e9fb2b2fcca2bc1ec968085c7f)
+        ;
+
+        
+    
+    
+                marker_f67bd8a63b2ec74ef33a525fcad1085a.setIcon(icon_cd881fd06fbf8dea6c40c3e5b95f7433);
+            
+    
+            var marker_bd1df4b0d6575bb79659d5d9a0092d4c = L.marker(
+                [11.29562984, 106.5768242],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_336a2305b9ca47463d898b0b35e5d137 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2f93f516bdceb0ea039055157b57a4c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_530a1f1197a71b639dba7787c35f1f38 = $(`<div id="html_530a1f1197a71b639dba7787c35f1f38" style="width: 100.0%; height: 100.0%;">Công Ty TNHH KOLON INDUSTRIES VIỆT NAM - Top A</div>`)[0];
+                popup_2f93f516bdceb0ea039055157b57a4c5.setContent(html_530a1f1197a71b639dba7787c35f1f38);
+            
+        
+
+        marker_bd1df4b0d6575bb79659d5d9a0092d4c.bindPopup(popup_2f93f516bdceb0ea039055157b57a4c5)
+        ;
+
+        
+    
+    
+                marker_bd1df4b0d6575bb79659d5d9a0092d4c.setIcon(icon_336a2305b9ca47463d898b0b35e5d137);
+            
+    
+            var marker_8042b295878240f99b5349a60e6d40d7 = L.marker(
+                [11.2845898, 106.5834042],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_e6a803a827766064b2b4bf2bc2718207 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0b268b640d95b7f823e210695fd28c8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1561d054d0dd41506cd308a80d4875b = $(`<div id="html_b1561d054d0dd41506cd308a80d4875b" style="width: 100.0%; height: 100.0%;">Công Ty Tnhh Paihong Việt Nam - Top B</div>`)[0];
+                popup_0b268b640d95b7f823e210695fd28c8e.setContent(html_b1561d054d0dd41506cd308a80d4875b);
+            
+        
+
+        marker_8042b295878240f99b5349a60e6d40d7.bindPopup(popup_0b268b640d95b7f823e210695fd28c8e)
+        ;
+
+        
+    
+    
+                marker_8042b295878240f99b5349a60e6d40d7.setIcon(icon_e6a803a827766064b2b4bf2bc2718207);
+            
+    
+            var poly_line_f36dc1fe6e48874f21c26b30dcf19570 = L.polyline(
+                [[10.79705976, 106.6483953], [10.67051819, 106.5588465], [10.65884447, 106.5422427], [10.64156437, 106.5171841], [10.62613059, 106.4869476], [10.63423717, 106.4972404], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#641e0b", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#641e0b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_f36dc1fe6e48874f21c26b30dcf19570.bindTooltip(
+                `<div>
+                     Cluster 7 - #083521
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cf733e18207d2178e704ef23191d96a6 = L.marker(
+                [10.67051819, 106.5588465],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_eee821c6cb9876f82280c0fa48d71155 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_db10670a0b35f2cbde364e807eb959cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_708b02ef347766677bc7b0e395243206 = $(`<div id="html_708b02ef347766677bc7b0e395243206" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH NĂNG LƯỢNG XANH - Top A</div>`)[0];
+                popup_db10670a0b35f2cbde364e807eb959cf.setContent(html_708b02ef347766677bc7b0e395243206);
+            
+        
+
+        marker_cf733e18207d2178e704ef23191d96a6.bindPopup(popup_db10670a0b35f2cbde364e807eb959cf)
+        ;
+
+        
+    
+    
+                marker_cf733e18207d2178e704ef23191d96a6.setIcon(icon_eee821c6cb9876f82280c0fa48d71155);
+            
+    
+            var marker_5cf62b779ef9b4ed23e173dd96ce8433 = L.marker(
+                [10.65884447, 106.5422427],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_5b21c70ffe49bf3d9cfc65caf86faec8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f3d05d775e7dd958cc440cfcc00fd234 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54185aff2d82c19badb3f1cdafe9ebab = $(`<div id="html_54185aff2d82c19badb3f1cdafe9ebab" style="width: 100.0%; height: 100.0%;">Công Ty TNHH CJ VI NA AGRI - Top B</div>`)[0];
+                popup_f3d05d775e7dd958cc440cfcc00fd234.setContent(html_54185aff2d82c19badb3f1cdafe9ebab);
+            
+        
+
+        marker_5cf62b779ef9b4ed23e173dd96ce8433.bindPopup(popup_f3d05d775e7dd958cc440cfcc00fd234)
+        ;
+
+        
+    
+    
+                marker_5cf62b779ef9b4ed23e173dd96ce8433.setIcon(icon_5b21c70ffe49bf3d9cfc65caf86faec8);
+            
+    
+            var marker_dabd6a6539f1958af571be5469ecd2a1 = L.marker(
+                [10.62613059, 106.4869476],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_bde45eca2b304e9749bc9e4387bc7090 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c84973629a4f03ceca9adcf6e12b7d87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5dabb76e9803be5c94130c2990df0994 = $(`<div id="html_5dabb76e9803be5c94130c2990df0994" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Một Thành Viên Thương Mại Dịch Vụ Trấu Việt Long An - Top C</div>`)[0];
+                popup_c84973629a4f03ceca9adcf6e12b7d87.setContent(html_5dabb76e9803be5c94130c2990df0994);
+            
+        
+
+        marker_dabd6a6539f1958af571be5469ecd2a1.bindPopup(popup_c84973629a4f03ceca9adcf6e12b7d87)
+        ;
+
+        
+    
+    
+                marker_dabd6a6539f1958af571be5469ecd2a1.setIcon(icon_bde45eca2b304e9749bc9e4387bc7090);
+            
+    
+            var marker_d912a886e37a62de58c4fa7c54432caa = L.marker(
+                [10.63423717, 106.4972404],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_58e056f3a5b02981ff59bbeb02ea3f9e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1d0a5868c3c5c71bca0a60739fb56043 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf134adbc50150f84532db7f76840479 = $(`<div id="html_bf134adbc50150f84532db7f76840479" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Đồ Hộp Việt Cường - Top B</div>`)[0];
+                popup_1d0a5868c3c5c71bca0a60739fb56043.setContent(html_bf134adbc50150f84532db7f76840479);
+            
+        
+
+        marker_d912a886e37a62de58c4fa7c54432caa.bindPopup(popup_1d0a5868c3c5c71bca0a60739fb56043)
+        ;
+
+        
+    
+    
+                marker_d912a886e37a62de58c4fa7c54432caa.setIcon(icon_58e056f3a5b02981ff59bbeb02ea3f9e);
+            
+    
+            var marker_1147866908d1c4656bae3d7c149c42f6 = L.marker(
+                [10.64156437, 106.5171841],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_c4a2083b75d4a98638ede020d2ab5087 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3b518061fc030540f3506321172e3ef5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93875bd07a9b10756877a574685f2864 = $(`<div id="html_93875bd07a9b10756877a574685f2864" style="width: 100.0%; height: 100.0%;">Công Ty Cổ Phần Nhựa Bình Minh - Chị Nhánh Nhựa Bình Minh Long An - Top B</div>`)[0];
+                popup_3b518061fc030540f3506321172e3ef5.setContent(html_93875bd07a9b10756877a574685f2864);
+            
+        
+
+        marker_1147866908d1c4656bae3d7c149c42f6.bindPopup(popup_3b518061fc030540f3506321172e3ef5)
+        ;
+
+        
+    
+    
+                marker_1147866908d1c4656bae3d7c149c42f6.setIcon(icon_c4a2083b75d4a98638ede020d2ab5087);
+            
+    
+            var poly_line_e62028ec084840c2aceaa78df42311b0 = L.polyline(
+                [[10.79705976, 106.6483953], [10.65383159, 107.022764], [10.65006411, 107.0352378], [10.64590756, 107.0312962], [10.6441687, 107.0273239], [10.64317803, 107.0314291], [10.63823111, 107.0322393], [10.63042222, 107.0321378], [10.59898193, 107.0349046], [10.62176322, 107.0404396], [10.64336189, 107.055374], [10.6479409, 107.0723234], [10.65295702, 107.0537862], [10.66339147, 107.0336801], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#5af9da", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#5af9da", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_e62028ec084840c2aceaa78df42311b0.bindTooltip(
+                `<div>
+                     Cluster 8 - #99d50c
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4021a380076c66ce7204025b9af194e5 = L.marker(
+                [10.63823111, 107.0322393],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_3d3781c0cbac6ad691de11dd7afed0e0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9522b2a9b5a71807919485816a06058d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84bd6c0eb9d28ac45fc9c0506832f5e4 = $(`<div id="html_84bd6c0eb9d28ac45fc9c0506832f5e4" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH THÉP SÓNG THẦN - Top B</div>`)[0];
+                popup_9522b2a9b5a71807919485816a06058d.setContent(html_84bd6c0eb9d28ac45fc9c0506832f5e4);
+            
+        
+
+        marker_4021a380076c66ce7204025b9af194e5.bindPopup(popup_9522b2a9b5a71807919485816a06058d)
+        ;
+
+        
+    
+    
+                marker_4021a380076c66ce7204025b9af194e5.setIcon(icon_3d3781c0cbac6ad691de11dd7afed0e0);
+            
+    
+            var marker_c8949e488ca728d9834a45afb76d74f6 = L.marker(
+                [10.6479409, 107.0723234],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_47dc774c1636f47ed21bab300d587dce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a90c9ba2d62580b7689e3f7024da7aa2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8badc5660ce31b0ca7d7185ceaf3f9b8 = $(`<div id="html_8badc5660ce31b0ca7d7185ceaf3f9b8" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Nguyên Liệu Thức Ăn Chăn Nuôi CJ Việt Nam - Top C</div>`)[0];
+                popup_a90c9ba2d62580b7689e3f7024da7aa2.setContent(html_8badc5660ce31b0ca7d7185ceaf3f9b8);
+            
+        
+
+        marker_c8949e488ca728d9834a45afb76d74f6.bindPopup(popup_a90c9ba2d62580b7689e3f7024da7aa2)
+        ;
+
+        
+    
+    
+                marker_c8949e488ca728d9834a45afb76d74f6.setIcon(icon_47dc774c1636f47ed21bab300d587dce);
+            
+    
+            var marker_bbd49a37974b699bc0b70bfbd899d1a1 = L.marker(
+                [10.6441687, 107.0273239],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_d583223c152214cfac2dca97d2fce64b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_28a3e39ecb392fb27eb47d8c2325ed95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_487961248be7602dedf7c409f4e81d87 = $(`<div id="html_487961248be7602dedf7c409f4e81d87" style="width: 100.0%; height: 100.0%;">Công ty TNHH Công Nghiệp Kính NSG Việt Nam - Top B</div>`)[0];
+                popup_28a3e39ecb392fb27eb47d8c2325ed95.setContent(html_487961248be7602dedf7c409f4e81d87);
+            
+        
+
+        marker_bbd49a37974b699bc0b70bfbd899d1a1.bindPopup(popup_28a3e39ecb392fb27eb47d8c2325ed95)
+        ;
+
+        
+    
+    
+                marker_bbd49a37974b699bc0b70bfbd899d1a1.setIcon(icon_d583223c152214cfac2dca97d2fce64b);
+            
+    
+            var marker_dd547fd730f4564ff4bac4970bf517f2 = L.marker(
+                [10.62176322, 107.0404396],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_daecc526ee3cf38d8b49257b1351caaa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_370f03e925d5c232c2b19e08c4272fa3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9063e58d1955de5c6baf478c479bc482 = $(`<div id="html_9063e58d1955de5c6baf478c479bc482" style="width: 100.0%; height: 100.0%;">Công Ty Cổ phần China Steel & Nippon Steel Việt Nam - Top A</div>`)[0];
+                popup_370f03e925d5c232c2b19e08c4272fa3.setContent(html_9063e58d1955de5c6baf478c479bc482);
+            
+        
+
+        marker_dd547fd730f4564ff4bac4970bf517f2.bindPopup(popup_370f03e925d5c232c2b19e08c4272fa3)
+        ;
+
+        
+    
+    
+                marker_dd547fd730f4564ff4bac4970bf517f2.setIcon(icon_daecc526ee3cf38d8b49257b1351caaa);
+            
+    
+            var marker_d81f401558b86c032e36687d686ae52c = L.marker(
+                [10.65006411, 107.0352378],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_7e737bccf433400c3b109548fc1e14e0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_78247fb2cfda642338cd4a4104faaa1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa028d0394195a4545a78782dca23c9a = $(`<div id="html_aa028d0394195a4545a78782dca23c9a" style="width: 100.0%; height: 100.0%;">Công Ty Cổ Phần Giấy Sài Gòn - Top B</div>`)[0];
+                popup_78247fb2cfda642338cd4a4104faaa1d.setContent(html_aa028d0394195a4545a78782dca23c9a);
+            
+        
+
+        marker_d81f401558b86c032e36687d686ae52c.bindPopup(popup_78247fb2cfda642338cd4a4104faaa1d)
+        ;
+
+        
+    
+    
+                marker_d81f401558b86c032e36687d686ae52c.setIcon(icon_7e737bccf433400c3b109548fc1e14e0);
+            
+    
+            var marker_bc0f755230313e0335c91228e57fe4df = L.marker(
+                [10.64317803, 107.0314291],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_75599fd98d8e1e7bdbbfc283cf713191 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_922407cf88ca3043ab93c00d6a22f465 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_081bc677d8a44ca5bbf86dbcacf7b233 = $(`<div id="html_081bc677d8a44ca5bbf86dbcacf7b233" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Xay Lúa Mì Việt Nam - Top C</div>`)[0];
+                popup_922407cf88ca3043ab93c00d6a22f465.setContent(html_081bc677d8a44ca5bbf86dbcacf7b233);
+            
+        
+
+        marker_bc0f755230313e0335c91228e57fe4df.bindPopup(popup_922407cf88ca3043ab93c00d6a22f465)
+        ;
+
+        
+    
+    
+                marker_bc0f755230313e0335c91228e57fe4df.setIcon(icon_75599fd98d8e1e7bdbbfc283cf713191);
+            
+    
+            var marker_2e46eed3fe09be8d26278dc2312c3c1b = L.marker(
+                [10.63042222, 107.0321378],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_280fe62262a55c04c01e28f7078fba97 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cd5d72f6fc246bb39d2973ff9fe555f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f7a3a07bca5676609470fe75a30d810 = $(`<div id="html_9f7a3a07bca5676609470fe75a30d810" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Haosheng Vina - Top A</div>`)[0];
+                popup_cd5d72f6fc246bb39d2973ff9fe555f1.setContent(html_9f7a3a07bca5676609470fe75a30d810);
+            
+        
+
+        marker_2e46eed3fe09be8d26278dc2312c3c1b.bindPopup(popup_cd5d72f6fc246bb39d2973ff9fe555f1)
+        ;
+
+        
+    
+    
+                marker_2e46eed3fe09be8d26278dc2312c3c1b.setIcon(icon_280fe62262a55c04c01e28f7078fba97);
+            
+    
+            var marker_b2af9cbebd30ecb98687449c8b0bf709 = L.marker(
+                [10.65383159, 107.022764],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_a9175de1a612d8657c1a6d0ea2371d84 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_feec708942f03319079a3a4c490909c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b92cf9c07dda6e49c6e5ccf7bc041729 = $(`<div id="html_b92cf9c07dda6e49c6e5ccf7bc041729" style="width: 100.0%; height: 100.0%;">Công ty TNHH Top Solvent (Việt Nam) - Top B</div>`)[0];
+                popup_feec708942f03319079a3a4c490909c2.setContent(html_b92cf9c07dda6e49c6e5ccf7bc041729);
+            
+        
+
+        marker_b2af9cbebd30ecb98687449c8b0bf709.bindPopup(popup_feec708942f03319079a3a4c490909c2)
+        ;
+
+        
+    
+    
+                marker_b2af9cbebd30ecb98687449c8b0bf709.setIcon(icon_a9175de1a612d8657c1a6d0ea2371d84);
+            
+    
+            var marker_0711a6a635933223992dbe60a60d09df = L.marker(
+                [10.59898193, 107.0349046],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_a615878d23f980572fb72dde6927594b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3ef3bb785ba007a76f32196189c8c4f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba356a29d93516be35db4b3e1c449472 = $(`<div id="html_ba356a29d93516be35db4b3e1c449472" style="width: 100.0%; height: 100.0%;">Công Ty Nhiệt Điện Phú Mỹ- Chi Nhánh Tổng Công Ty Phát Điện 3 - Công Ty Cổ Phần - Top C</div>`)[0];
+                popup_3ef3bb785ba007a76f32196189c8c4f3.setContent(html_ba356a29d93516be35db4b3e1c449472);
+            
+        
+
+        marker_0711a6a635933223992dbe60a60d09df.bindPopup(popup_3ef3bb785ba007a76f32196189c8c4f3)
+        ;
+
+        
+    
+    
+                marker_0711a6a635933223992dbe60a60d09df.setIcon(icon_a615878d23f980572fb72dde6927594b);
+            
+    
+            var marker_634a9d4701175eac2b9640f0a8af9a12 = L.marker(
+                [10.64336189, 107.055374],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_314cb215ce3afcb5941cd8849347641a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fb7bd27b3873e4bdc3490d71a7b0d470 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8316458f9a0b2f4dc4543ab1eca44ffe = $(`<div id="html_8316458f9a0b2f4dc4543ab1eca44ffe" style="width: 100.0%; height: 100.0%;">Công Ty TNHH CJ FOODS Việt Nam- Chi Nhánh Bà Rịa – Vũng Tàu - Top B</div>`)[0];
+                popup_fb7bd27b3873e4bdc3490d71a7b0d470.setContent(html_8316458f9a0b2f4dc4543ab1eca44ffe);
+            
+        
+
+        marker_634a9d4701175eac2b9640f0a8af9a12.bindPopup(popup_fb7bd27b3873e4bdc3490d71a7b0d470)
+        ;
+
+        
+    
+    
+                marker_634a9d4701175eac2b9640f0a8af9a12.setIcon(icon_314cb215ce3afcb5941cd8849347641a);
+            
+    
+            var marker_1875679a746ac2f06100a0768f9457b2 = L.marker(
+                [10.65295702, 107.0537862],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_296ea600cfb64313e441098c3cde03f8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a5a1b52401cc35ccad12c14963747b62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c20bbe70f9d67a8ca34a42aa39d9868b = $(`<div id="html_c20bbe70f9d67a8ca34a42aa39d9868b" style="width: 100.0%; height: 100.0%;">Công Ty TNHH CJ FOODS Việt Nam - Top B</div>`)[0];
+                popup_a5a1b52401cc35ccad12c14963747b62.setContent(html_c20bbe70f9d67a8ca34a42aa39d9868b);
+            
+        
+
+        marker_1875679a746ac2f06100a0768f9457b2.bindPopup(popup_a5a1b52401cc35ccad12c14963747b62)
+        ;
+
+        
+    
+    
+                marker_1875679a746ac2f06100a0768f9457b2.setIcon(icon_296ea600cfb64313e441098c3cde03f8);
+            
+    
+            var marker_49bb6238c033b747674cad741f50deea = L.marker(
+                [10.66339147, 107.0336801],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_c26224aadf976642236909abfc2331ba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4a422661c2c163c74cdc16c33b6e331d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f6162590a352f954a101c41fccad7db = $(`<div id="html_8f6162590a352f954a101c41fccad7db" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH NHÀ MÁY BIA HEINEKEN VIỆT NAM- CHI NHÁNH TẠI BÀ RỊA VŨNG TÀU - Top C</div>`)[0];
+                popup_4a422661c2c163c74cdc16c33b6e331d.setContent(html_8f6162590a352f954a101c41fccad7db);
+            
+        
+
+        marker_49bb6238c033b747674cad741f50deea.bindPopup(popup_4a422661c2c163c74cdc16c33b6e331d)
+        ;
+
+        
+    
+    
+                marker_49bb6238c033b747674cad741f50deea.setIcon(icon_c26224aadf976642236909abfc2331ba);
+            
+    
+            var marker_a64dc1d2132e96920cdca0b5f1403a6b = L.marker(
+                [10.64590756, 107.0312962],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_4106d42e1f59ed873d16d3c42e3d8985 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7a04638e32e0cbffd7582f57d8f2e09b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_188141fc6c77ba64ee1d8655b802a98b = $(`<div id="html_188141fc6c77ba64ee1d8655b802a98b" style="width: 100.0%; height: 100.0%;">Công ty CP Nippon Sanso Việt Nam - Chi nhánh KCN Mỹ Xuân - Top B</div>`)[0];
+                popup_7a04638e32e0cbffd7582f57d8f2e09b.setContent(html_188141fc6c77ba64ee1d8655b802a98b);
+            
+        
+
+        marker_a64dc1d2132e96920cdca0b5f1403a6b.bindPopup(popup_7a04638e32e0cbffd7582f57d8f2e09b)
+        ;
+
+        
+    
+    
+                marker_a64dc1d2132e96920cdca0b5f1403a6b.setIcon(icon_4106d42e1f59ed873d16d3c42e3d8985);
+            
+    
+            var poly_line_39898db2e14cd061c65880dfcbc6876b = L.polyline(
+                [[10.79705976, 106.6483953], [10.72596664, 106.7144956], [10.71384255, 106.7331115], [10.69486, 106.74069], [10.72975365, 106.745859], [10.73611371, 106.7308082], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#af2052", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#af2052", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_39898db2e14cd061c65880dfcbc6876b.bindTooltip(
+                `<div>
+                     Cluster 9 - #93bdee
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_72d53542d181abdab016f6e3dbb757d6 = L.marker(
+                [10.73611371, 106.7308082],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_2540c84f79128e1ad4b0c7b0d9dac983 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aa118c2dfc10fb8d95fc48efb57f2316 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99aa91eb4926227c59dc2f93fe07899b = $(`<div id="html_99aa91eb4926227c59dc2f93fe07899b" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Phát Triển Thương Mại Và Kỹ Thuật Phương Hà - Top B</div>`)[0];
+                popup_aa118c2dfc10fb8d95fc48efb57f2316.setContent(html_99aa91eb4926227c59dc2f93fe07899b);
+            
+        
+
+        marker_72d53542d181abdab016f6e3dbb757d6.bindPopup(popup_aa118c2dfc10fb8d95fc48efb57f2316)
+        ;
+
+        
+    
+    
+                marker_72d53542d181abdab016f6e3dbb757d6.setIcon(icon_2540c84f79128e1ad4b0c7b0d9dac983);
+            
+    
+            var marker_d7e9c7154a84c6b17af11b91b57b1bed = L.marker(
+                [10.72975365, 106.745859],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_1440065cec2de6598c270bab87cf93b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_62ca00fe581e1b722d42b313a4b9dcf8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d32a1960ebc2fc543fd66b4de51dd6db = $(`<div id="html_d32a1960ebc2fc543fd66b4de51dd6db" style="width: 100.0%; height: 100.0%;">Công Ty TNHH KIDO-Nhà Bè - Top B</div>`)[0];
+                popup_62ca00fe581e1b722d42b313a4b9dcf8.setContent(html_d32a1960ebc2fc543fd66b4de51dd6db);
+            
+        
+
+        marker_d7e9c7154a84c6b17af11b91b57b1bed.bindPopup(popup_62ca00fe581e1b722d42b313a4b9dcf8)
+        ;
+
+        
+    
+    
+                marker_d7e9c7154a84c6b17af11b91b57b1bed.setIcon(icon_1440065cec2de6598c270bab87cf93b8);
+            
+    
+            var marker_63fb9a3f6ab6989b3ed2b7289207d565 = L.marker(
+                [10.72596664, 106.7144956],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_86d51f4335e531ca61c262ea3c974fc8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8aa0d15dbc00b51095e1d4a265df2127 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b6a2f12db936ba7ac421bdb9ef8b564 = $(`<div id="html_4b6a2f12db936ba7ac421bdb9ef8b564" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ TRẤU VIỆT - Top B</div>`)[0];
+                popup_8aa0d15dbc00b51095e1d4a265df2127.setContent(html_4b6a2f12db936ba7ac421bdb9ef8b564);
+            
+        
+
+        marker_63fb9a3f6ab6989b3ed2b7289207d565.bindPopup(popup_8aa0d15dbc00b51095e1d4a265df2127)
+        ;
+
+        
+    
+    
+                marker_63fb9a3f6ab6989b3ed2b7289207d565.setIcon(icon_86d51f4335e531ca61c262ea3c974fc8);
+            
+    
+            var marker_3663425f247adb92497e5a3037659326 = L.marker(
+                [10.69486, 106.74069],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_51e343d0946d2029a750f798ff4867d2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_51b00ec26df9a1569f720a92dcaedf2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e6c33628c122628970877b2fee9acbb2 = $(`<div id="html_e6c33628c122628970877b2fee9acbb2" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Cơ Nhiệt Lạnh Hoa Sen - Top B</div>`)[0];
+                popup_51b00ec26df9a1569f720a92dcaedf2b.setContent(html_e6c33628c122628970877b2fee9acbb2);
+            
+        
+
+        marker_3663425f247adb92497e5a3037659326.bindPopup(popup_51b00ec26df9a1569f720a92dcaedf2b)
+        ;
+
+        
+    
+    
+                marker_3663425f247adb92497e5a3037659326.setIcon(icon_51e343d0946d2029a750f798ff4867d2);
+            
+    
+            var marker_bf70989162bb19f91c9f920cfeb1e45e = L.marker(
+                [10.71384255, 106.7331115],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_df840016ab0521e2296cedcc0463e0b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_99b29dd21eec6bab436c49c7b2c631e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_546cc8a77165c5c88d1ed22be4d83e46 = $(`<div id="html_546cc8a77165c5c88d1ed22be4d83e46" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Việt Nam ZERO WASTE - Top B</div>`)[0];
+                popup_99b29dd21eec6bab436c49c7b2c631e6.setContent(html_546cc8a77165c5c88d1ed22be4d83e46);
+            
+        
+
+        marker_bf70989162bb19f91c9f920cfeb1e45e.bindPopup(popup_99b29dd21eec6bab436c49c7b2c631e6)
+        ;
+
+        
+    
+    
+                marker_bf70989162bb19f91c9f920cfeb1e45e.setIcon(icon_df840016ab0521e2296cedcc0463e0b4);
+            
+    
+            var poly_line_70e043cf68ec96fe82b49a793e81fc38 = L.polyline(
+                [[10.79705976, 106.6483953], [10.74855041, 106.9333104], [10.74263769, 106.9427931], [10.71992733, 106.9310903], [10.71876125, 106.9323885], [10.70846891, 106.9481657], [10.70787613, 106.9538234], [10.69462717, 106.9451083], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#684a89", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#684a89", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_70e043cf68ec96fe82b49a793e81fc38.bindTooltip(
+                `<div>
+                     Cluster 10 - #832374
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_71046fea887961df969f1c35419c5822 = L.marker(
+                [10.71992733, 106.9310903],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_924644e6fcf9868fdab47f31b30475c9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7dd6f0fd2a5672d847260bc34ef060a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_270a3e891df44c7db0d4a2a6d126adce = $(`<div id="html_270a3e891df44c7db0d4a2a6d126adce" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH SỢI CHỈ G&G - Top A</div>`)[0];
+                popup_7dd6f0fd2a5672d847260bc34ef060a2.setContent(html_270a3e891df44c7db0d4a2a6d126adce);
+            
+        
+
+        marker_71046fea887961df969f1c35419c5822.bindPopup(popup_7dd6f0fd2a5672d847260bc34ef060a2)
+        ;
+
+        
+    
+    
+                marker_71046fea887961df969f1c35419c5822.setIcon(icon_924644e6fcf9868fdab47f31b30475c9);
+            
+    
+            var marker_1374370e197fbc9210fe851b8d133a87 = L.marker(
+                [10.70846891, 106.9481657],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_5294e6821986583cafe79aa57fd37fc0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_94a7f7f7b2afc1341c3c8dec310d88ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_723468790e052fa6f7288be711a3eb84 = $(`<div id="html_723468790e052fa6f7288be711a3eb84" style="width: 100.0%; height: 100.0%;">Công Ty TNHH AICA LAMINATES Việt Nam - Top C</div>`)[0];
+                popup_94a7f7f7b2afc1341c3c8dec310d88ff.setContent(html_723468790e052fa6f7288be711a3eb84);
+            
+        
+
+        marker_1374370e197fbc9210fe851b8d133a87.bindPopup(popup_94a7f7f7b2afc1341c3c8dec310d88ff)
+        ;
+
+        
+    
+    
+                marker_1374370e197fbc9210fe851b8d133a87.setIcon(icon_5294e6821986583cafe79aa57fd37fc0);
+            
+    
+            var marker_c27112979f86287cd37745cec8500ccc = L.marker(
+                [10.71876125, 106.9323885],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_48b06ceac6a76671004f80482a444dae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c709f7a146202497ca799ed883ff6c19 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42af4d1e678310d0e22dffeba7385151 = $(`<div id="html_42af4d1e678310d0e22dffeba7385151" style="width: 100.0%; height: 100.0%;">Công Ty Trách Nhiệm Hữu Hạn King Car - Top B</div>`)[0];
+                popup_c709f7a146202497ca799ed883ff6c19.setContent(html_42af4d1e678310d0e22dffeba7385151);
+            
+        
+
+        marker_c27112979f86287cd37745cec8500ccc.bindPopup(popup_c709f7a146202497ca799ed883ff6c19)
+        ;
+
+        
+    
+    
+                marker_c27112979f86287cd37745cec8500ccc.setIcon(icon_48b06ceac6a76671004f80482a444dae);
+            
+    
+            var marker_8db1267d56dfffdf854b1e3fb027f089 = L.marker(
+                [10.74263769, 106.9427931],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_d471eb0123cdaa515e4449408323c015 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_93a12c6b81f6f9a1beaf99c585ec06fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17a201348ffbb59b41d537ed6fc474d5 = $(`<div id="html_17a201348ffbb59b41d537ed6fc474d5" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Kỹ Thuật Thanh & Thanh - Top C</div>`)[0];
+                popup_93a12c6b81f6f9a1beaf99c585ec06fd.setContent(html_17a201348ffbb59b41d537ed6fc474d5);
+            
+        
+
+        marker_8db1267d56dfffdf854b1e3fb027f089.bindPopup(popup_93a12c6b81f6f9a1beaf99c585ec06fd)
+        ;
+
+        
+    
+    
+                marker_8db1267d56dfffdf854b1e3fb027f089.setIcon(icon_d471eb0123cdaa515e4449408323c015);
+            
+    
+            var marker_a3fd87055bb25f53fa570a7c5d823eae = L.marker(
+                [10.74855041, 106.9333104],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_1fe6659026dae980a81f3c519cc7feba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_233ea87ae94a15c1454dc811021b2cb3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3f647f48ff8cddcdfe8fab65e9c8ecb = $(`<div id="html_c3f647f48ff8cddcdfe8fab65e9c8ecb" style="width: 100.0%; height: 100.0%;">CÔNG TY SIKA HỮU HẠN VIỆT NAM - Top A</div>`)[0];
+                popup_233ea87ae94a15c1454dc811021b2cb3.setContent(html_c3f647f48ff8cddcdfe8fab65e9c8ecb);
+            
+        
+
+        marker_a3fd87055bb25f53fa570a7c5d823eae.bindPopup(popup_233ea87ae94a15c1454dc811021b2cb3)
+        ;
+
+        
+    
+    
+                marker_a3fd87055bb25f53fa570a7c5d823eae.setIcon(icon_1fe6659026dae980a81f3c519cc7feba);
+            
+    
+            var marker_eabdae8f2af9f2e46d9d0ca68135e09d = L.marker(
+                [10.70787613, 106.9538234],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_737502f9fcf3c00a49dcc638f15df936 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ba979bc366b5e56e7fded06cea52d2ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f65c265b3b3d065ab302c7ae914aa03c = $(`<div id="html_f65c265b3b3d065ab302c7ae914aa03c" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH SOLTEC VIỆT NAM - Top C</div>`)[0];
+                popup_ba979bc366b5e56e7fded06cea52d2ff.setContent(html_f65c265b3b3d065ab302c7ae914aa03c);
+            
+        
+
+        marker_eabdae8f2af9f2e46d9d0ca68135e09d.bindPopup(popup_ba979bc366b5e56e7fded06cea52d2ff)
+        ;
+
+        
+    
+    
+                marker_eabdae8f2af9f2e46d9d0ca68135e09d.setIcon(icon_737502f9fcf3c00a49dcc638f15df936);
+            
+    
+            var marker_c195cc27cb6ec442031ba29d30840ae3 = L.marker(
+                [10.69462717, 106.9451083],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_570961433fc76807584351f2e46b7b3b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1718b5afd42a1a9158d86186ed59b4c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d72b43d13740ed3e356f6055b92dd93 = $(`<div id="html_4d72b43d13740ed3e356f6055b92dd93" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Summit Polymers Vietnam - Top C</div>`)[0];
+                popup_1718b5afd42a1a9158d86186ed59b4c4.setContent(html_4d72b43d13740ed3e356f6055b92dd93);
+            
+        
+
+        marker_c195cc27cb6ec442031ba29d30840ae3.bindPopup(popup_1718b5afd42a1a9158d86186ed59b4c4)
+        ;
+
+        
+    
+    
+                marker_c195cc27cb6ec442031ba29d30840ae3.setIcon(icon_570961433fc76807584351f2e46b7b3b);
+            
+    
+            var poly_line_1f8f81a734bb7c3e8868e5e19c78726c = L.polyline(
+                [[10.79705976, 106.6483953], [10.91049209, 106.8520768], [10.91153684, 106.8533009], [10.9221181, 106.8732732], [10.92682521, 106.8760094], [10.93019229, 106.866633], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#b08154", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#b08154", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_1f8f81a734bb7c3e8868e5e19c78726c.bindTooltip(
+                `<div>
+                     Cluster 11 - #8e3aa4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_75e03e66239dc46d23618d927799c8a0 = L.marker(
+                [10.9221181, 106.8732732],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_9437a94fb91bc1c22cad73e59ee8338e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7d9a3c4cbe4ef2c6307db000da4a039c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4844ddd3a5e3a6b97524433e378f289 = $(`<div id="html_a4844ddd3a5e3a6b97524433e378f289" style="width: 100.0%; height: 100.0%;">Công Ty AJINOMOTO Việt Nam - Top A</div>`)[0];
+                popup_7d9a3c4cbe4ef2c6307db000da4a039c.setContent(html_a4844ddd3a5e3a6b97524433e378f289);
+            
+        
+
+        marker_75e03e66239dc46d23618d927799c8a0.bindPopup(popup_7d9a3c4cbe4ef2c6307db000da4a039c)
+        ;
+
+        
+    
+    
+                marker_75e03e66239dc46d23618d927799c8a0.setIcon(icon_9437a94fb91bc1c22cad73e59ee8338e);
+            
+    
+            var marker_c43a1158008dee403f5fc4ac73891332 = L.marker(
+                [10.91049209, 106.8520768],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_5334439265281f7ac6006ee4739fbd53 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_73ed5af52fc33c51c509c4bff4dfa0dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1afe92347ed536cfab17d22209216dd5 = $(`<div id="html_1afe92347ed536cfab17d22209216dd5" style="width: 100.0%; height: 100.0%;">Nhà Máy BIBICA Biên Hòa- Chi Nhánh Công Ty Cổ Phần BIBICA - Top C</div>`)[0];
+                popup_73ed5af52fc33c51c509c4bff4dfa0dd.setContent(html_1afe92347ed536cfab17d22209216dd5);
+            
+        
+
+        marker_c43a1158008dee403f5fc4ac73891332.bindPopup(popup_73ed5af52fc33c51c509c4bff4dfa0dd)
+        ;
+
+        
+    
+    
+                marker_c43a1158008dee403f5fc4ac73891332.setIcon(icon_5334439265281f7ac6006ee4739fbd53);
+            
+    
+            var marker_ae6d083866e1aaee8a4153e0d8f6fa94 = L.marker(
+                [10.93019229, 106.866633],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_5bdf322d1785dcb6bdb93df5937f8a5b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_efaf74f659ca2528d86b709c333dc730 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e59bc4a19fd07f14178c4721f243fc2c = $(`<div id="html_e59bc4a19fd07f14178c4721f243fc2c" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Kỹ Thuật Tín Phát Đồng Nai - Top B</div>`)[0];
+                popup_efaf74f659ca2528d86b709c333dc730.setContent(html_e59bc4a19fd07f14178c4721f243fc2c);
+            
+        
+
+        marker_ae6d083866e1aaee8a4153e0d8f6fa94.bindPopup(popup_efaf74f659ca2528d86b709c333dc730)
+        ;
+
+        
+    
+    
+                marker_ae6d083866e1aaee8a4153e0d8f6fa94.setIcon(icon_5bdf322d1785dcb6bdb93df5937f8a5b);
+            
+    
+            var marker_d246f48bb5670411df6287d15e3fd03e = L.marker(
+                [10.91153684, 106.8533009],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_a38091a006ead47f33cc7b099ce54365 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_075e902e74effd492c2496124f31336a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_833da6e38504ec7e5b892d0bbc4a9add = $(`<div id="html_833da6e38504ec7e5b892d0bbc4a9add" style="width: 100.0%; height: 100.0%;">Công Ty Cổ Phần Hàng Tiêu Dùng Biên Hòa - Top A</div>`)[0];
+                popup_075e902e74effd492c2496124f31336a.setContent(html_833da6e38504ec7e5b892d0bbc4a9add);
+            
+        
+
+        marker_d246f48bb5670411df6287d15e3fd03e.bindPopup(popup_075e902e74effd492c2496124f31336a)
+        ;
+
+        
+    
+    
+                marker_d246f48bb5670411df6287d15e3fd03e.setIcon(icon_a38091a006ead47f33cc7b099ce54365);
+            
+    
+            var marker_0a9bae9eea65684c9e1a1c6703b6b014 = L.marker(
+                [10.92682521, 106.8760094],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_0db12940674f401661a2db74632773c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ca0b4e2811b66edc4a756f6489f6849e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7269d591e37f235237299391c642309d = $(`<div id="html_7269d591e37f235237299391c642309d" style="width: 100.0%; height: 100.0%;">Công ty CP Nippon Sanso Việt Nam - Top C</div>`)[0];
+                popup_ca0b4e2811b66edc4a756f6489f6849e.setContent(html_7269d591e37f235237299391c642309d);
+            
+        
+
+        marker_0a9bae9eea65684c9e1a1c6703b6b014.bindPopup(popup_ca0b4e2811b66edc4a756f6489f6849e)
+        ;
+
+        
+    
+    
+                marker_0a9bae9eea65684c9e1a1c6703b6b014.setIcon(icon_0db12940674f401661a2db74632773c2);
+            
+    
+            var poly_line_fdd5d2a29a5ab46154d27bb4a078b5cd = L.polyline(
+                [[10.79705976, 106.6483953], [10.76141395, 106.6280774], [10.74438451, 106.6149414], [10.74443, 106.60832], [10.7480796, 106.575483], [10.77634376, 106.6041666], [10.76971289, 106.61869], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#2bb18e", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2bb18e", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_fdd5d2a29a5ab46154d27bb4a078b5cd.bindTooltip(
+                `<div>
+                     Cluster 12 - #0c1558
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f7e3900ea25a3f90a4fc8a72546897bd = L.marker(
+                [10.7480796, 106.575483],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_c6edd7ff9dd07d149fe7fb7c3d6c2313 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7cac003a5c231dcdcf821e02712da92a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ac92e1160951fe27e181a08fe15222a = $(`<div id="html_3ac92e1160951fe27e181a08fe15222a" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Greensol - Top A</div>`)[0];
+                popup_7cac003a5c231dcdcf821e02712da92a.setContent(html_3ac92e1160951fe27e181a08fe15222a);
+            
+        
+
+        marker_f7e3900ea25a3f90a4fc8a72546897bd.bindPopup(popup_7cac003a5c231dcdcf821e02712da92a)
+        ;
+
+        
+    
+    
+                marker_f7e3900ea25a3f90a4fc8a72546897bd.setIcon(icon_c6edd7ff9dd07d149fe7fb7c3d6c2313);
+            
+    
+            var marker_878fd6c336116654adc961319e87f9c5 = L.marker(
+                [10.74443, 106.60832],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_410e0b5201c6757dd24098eae0e657c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2d9e9ea3ce6e2ce0cee58031e0bcd301 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39d79287b98faad29917d16080e09e67 = $(`<div id="html_39d79287b98faad29917d16080e09e67" style="width: 100.0%; height: 100.0%;">Công Ty Cổ Phần Kỹ Thuật Hoàng Thịnh - Top A</div>`)[0];
+                popup_2d9e9ea3ce6e2ce0cee58031e0bcd301.setContent(html_39d79287b98faad29917d16080e09e67);
+            
+        
+
+        marker_878fd6c336116654adc961319e87f9c5.bindPopup(popup_2d9e9ea3ce6e2ce0cee58031e0bcd301)
+        ;
+
+        
+    
+    
+                marker_878fd6c336116654adc961319e87f9c5.setIcon(icon_410e0b5201c6757dd24098eae0e657c3);
+            
+    
+            var marker_9c46d22d49bc2b2b4a5ac88b707b850d = L.marker(
+                [10.77634376, 106.6041666],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_46eca37e95c6c8f82bc5195e5fb7fc53 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a0a75f6032f0ac39e391544b0dd003fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_500007601dde834669d2c241b6c8c500 = $(`<div id="html_500007601dde834669d2c241b6c8c500" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH SẢN XUẤT CƠ NHIỆT THIÊN PHÁT - Top A</div>`)[0];
+                popup_a0a75f6032f0ac39e391544b0dd003fa.setContent(html_500007601dde834669d2c241b6c8c500);
+            
+        
+
+        marker_9c46d22d49bc2b2b4a5ac88b707b850d.bindPopup(popup_a0a75f6032f0ac39e391544b0dd003fa)
+        ;
+
+        
+    
+    
+                marker_9c46d22d49bc2b2b4a5ac88b707b850d.setIcon(icon_46eca37e95c6c8f82bc5195e5fb7fc53);
+            
+    
+            var marker_403662de6b5200792ec29841cb9ebb79 = L.marker(
+                [10.76141395, 106.6280774],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_06d4d1e96bd2a03e090a35aa8d9e42fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e321acb7df646ebeb1da7afd3bbcc6c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8adbf67c2e6cdbda95f11566a439b458 = $(`<div id="html_8adbf67c2e6cdbda95f11566a439b458" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Cơ NHiệt Lạnh Hồng Tươi - Top C</div>`)[0];
+                popup_e321acb7df646ebeb1da7afd3bbcc6c4.setContent(html_8adbf67c2e6cdbda95f11566a439b458);
+            
+        
+
+        marker_403662de6b5200792ec29841cb9ebb79.bindPopup(popup_e321acb7df646ebeb1da7afd3bbcc6c4)
+        ;
+
+        
+    
+    
+                marker_403662de6b5200792ec29841cb9ebb79.setIcon(icon_06d4d1e96bd2a03e090a35aa8d9e42fb);
+            
+    
+            var marker_27a78dca833eef234d20e0b7545c8266 = L.marker(
+                [10.76971289, 106.61869],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_7dd21a313d4f33eb5a2010a4ed27934e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_90d19540cee9537410213caab878675d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6eb5a27f10fddcde15051d1f73300f4 = $(`<div id="html_c6eb5a27f10fddcde15051d1f73300f4" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Thương Mại Sản Xuất Cơ Nhiệt Hồng Lực - Top C</div>`)[0];
+                popup_90d19540cee9537410213caab878675d.setContent(html_c6eb5a27f10fddcde15051d1f73300f4);
+            
+        
+
+        marker_27a78dca833eef234d20e0b7545c8266.bindPopup(popup_90d19540cee9537410213caab878675d)
+        ;
+
+        
+    
+    
+                marker_27a78dca833eef234d20e0b7545c8266.setIcon(icon_7dd21a313d4f33eb5a2010a4ed27934e);
+            
+    
+            var marker_a56007fe463ac64473e891d19d2c97ad = L.marker(
+                [10.74438451, 106.6149414],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_1cf330241b8cf19ea5bdf47bb44ffa42 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_79930cc696f71b1c311032dcd3deac05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_529f9a3606246a89aedecffb31cd12c7 = $(`<div id="html_529f9a3606246a89aedecffb31cd12c7" style="width: 100.0%; height: 100.0%;">Chi Nhánh Công Ty Cổ Phần FRUZII - Top C</div>`)[0];
+                popup_79930cc696f71b1c311032dcd3deac05.setContent(html_529f9a3606246a89aedecffb31cd12c7);
+            
+        
+
+        marker_a56007fe463ac64473e891d19d2c97ad.bindPopup(popup_79930cc696f71b1c311032dcd3deac05)
+        ;
+
+        
+    
+    
+                marker_a56007fe463ac64473e891d19d2c97ad.setIcon(icon_1cf330241b8cf19ea5bdf47bb44ffa42);
+            
+    
+            var poly_line_898e70143667accf3e4df33ea5af1dda = L.polyline(
+                [[10.79705976, 106.6483953], [10.46555225, 107.0643619], [10.48858793, 107.1669795], [10.49898758, 107.1019054], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#2954ec", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2954ec", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_898e70143667accf3e4df33ea5af1dda.bindTooltip(
+                `<div>
+                     Cluster 13 - #3bb82b
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8394415d6833846d2b0a010d28be4797 = L.marker(
+                [10.49898758, 107.1019054],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_c3800dfbf5357bff48ed32c4e2897c30 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6714cb68652cb7002159f902dd64c7ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9e971d95071b09c82fb647dbc7487b4 = $(`<div id="html_e9e971d95071b09c82fb647dbc7487b4" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Chế Biến Thủy Sản Long Sơn - Top B</div>`)[0];
+                popup_6714cb68652cb7002159f902dd64c7ca.setContent(html_e9e971d95071b09c82fb647dbc7487b4);
+            
+        
+
+        marker_8394415d6833846d2b0a010d28be4797.bindPopup(popup_6714cb68652cb7002159f902dd64c7ca)
+        ;
+
+        
+    
+    
+                marker_8394415d6833846d2b0a010d28be4797.setIcon(icon_c3800dfbf5357bff48ed32c4e2897c30);
+            
+    
+            var marker_586b85a7b4e998ebe3eeb93a036b60e9 = L.marker(
+                [10.48858793, 107.1669795],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_8ba872e90a4014ca0d4eab0b52d71399 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ed1e4bc7535c873d829834f2ca71c9a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8df6d2d810714e08dadbda03de6833f = $(`<div id="html_b8df6d2d810714e08dadbda03de6833f" style="width: 100.0%; height: 100.0%;">CÔNG TY CỔ PHẦN NHIỆT ĐIỆN BÀ RỊA - Top B</div>`)[0];
+                popup_ed1e4bc7535c873d829834f2ca71c9a9.setContent(html_b8df6d2d810714e08dadbda03de6833f);
+            
+        
+
+        marker_586b85a7b4e998ebe3eeb93a036b60e9.bindPopup(popup_ed1e4bc7535c873d829834f2ca71c9a9)
+        ;
+
+        
+    
+    
+                marker_586b85a7b4e998ebe3eeb93a036b60e9.setIcon(icon_8ba872e90a4014ca0d4eab0b52d71399);
+            
+    
+            var marker_590cd058c9611c87db5b37817cfba193 = L.marker(
+                [10.46555225, 107.0643619],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_5bd740a839537e933d75419cb34401ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_161343626f47f2a6c5a1a54c87808013 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5da75039da4914a739ae56651bebd5b7 = $(`<div id="html_5da75039da4914a739ae56651bebd5b7" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Khí Công Nghiệp Long Sơn - Top A</div>`)[0];
+                popup_161343626f47f2a6c5a1a54c87808013.setContent(html_5da75039da4914a739ae56651bebd5b7);
+            
+        
+
+        marker_590cd058c9611c87db5b37817cfba193.bindPopup(popup_161343626f47f2a6c5a1a54c87808013)
+        ;
+
+        
+    
+    
+                marker_590cd058c9611c87db5b37817cfba193.setIcon(icon_5bd740a839537e933d75419cb34401ec);
+            
+    
+            var poly_line_7f35e47855625ac209bda85892325adf = L.polyline(
+                [[10.79705976, 106.6483953], [10.52183309, 107.3075323], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#1809fd", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1809fd", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_7f35e47855625ac209bda85892325adf.bindTooltip(
+                `<div>
+                     Cluster 14 - #a2842c
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d4b30937aa699ed41735e5cf4551a375 = L.marker(
+                [10.52183309, 107.3075323],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_4feb3ab42912b659159c5f3a69885c9a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_41ca617720b801f5ec680bd14286eef2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_656419f5dc9a83aace08f7f628b796e2 = $(`<div id="html_656419f5dc9a83aace08f7f628b796e2" style="width: 100.0%; height: 100.0%;">Chi Nhánh Đất Đỏ - Công Ty Cổ Phần Khải Hoàn Quốc Tế - Top C</div>`)[0];
+                popup_41ca617720b801f5ec680bd14286eef2.setContent(html_656419f5dc9a83aace08f7f628b796e2);
+            
+        
+
+        marker_d4b30937aa699ed41735e5cf4551a375.bindPopup(popup_41ca617720b801f5ec680bd14286eef2)
+        ;
+
+        
+    
+    
+                marker_d4b30937aa699ed41735e5cf4551a375.setIcon(icon_4feb3ab42912b659159c5f3a69885c9a);
+            
+    
+            var poly_line_b215b84c50c6082f4aa24d875aca14d6 = L.polyline(
+                [[10.79705976, 106.6483953], [10.90410875, 106.5521342], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#00954b", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#00954b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_b215b84c50c6082f4aa24d875aca14d6.bindTooltip(
+                `<div>
+                     Cluster 15 - #79838b
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_33b5a660f7c6985e2f0757a0a201d51a = L.marker(
+                [10.90410875, 106.5521342],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_d841ed9bd8e44a6618e6f6cea960d20e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8b3518b05d39761bd56308203ed21a96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a091b230e1f906a3535f2cd4f3066ff3 = $(`<div id="html_a091b230e1f906a3535f2cd4f3066ff3" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Sản Xuất Thương Mại Hiệp Lực Phát - Top C</div>`)[0];
+                popup_8b3518b05d39761bd56308203ed21a96.setContent(html_a091b230e1f906a3535f2cd4f3066ff3);
+            
+        
+
+        marker_33b5a660f7c6985e2f0757a0a201d51a.bindPopup(popup_8b3518b05d39761bd56308203ed21a96)
+        ;
+
+        
+    
+    
+                marker_33b5a660f7c6985e2f0757a0a201d51a.setIcon(icon_d841ed9bd8e44a6618e6f6cea960d20e);
+            
+    
+            var poly_line_e4e5f4055a2fdab5fc66ed52e0af4e8c = L.polyline(
+                [[10.79705976, 106.6483953], [11.12989473, 106.6004704], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#7a97c1", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#7a97c1", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_e4e5f4055a2fdab5fc66ed52e0af4e8c.bindTooltip(
+                `<div>
+                     Cluster 16 - #9d6c31
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_364bb86a84cb82fcfa5e104e48cae59e = L.marker(
+                [11.12989473, 106.6004704],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_7d5b3b6ec17194051ab8f4b9c452a021 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_56cdea96b521c2d5077dcbaf61193dc0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f761dbb0af5782354d11cb8433c59e3 = $(`<div id="html_8f761dbb0af5782354d11cb8433c59e3" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Một Thành Viên BIBICA Miền Đông - Top C</div>`)[0];
+                popup_56cdea96b521c2d5077dcbaf61193dc0.setContent(html_8f761dbb0af5782354d11cb8433c59e3);
+            
+        
+
+        marker_364bb86a84cb82fcfa5e104e48cae59e.bindPopup(popup_56cdea96b521c2d5077dcbaf61193dc0)
+        ;
+
+        
+    
+    
+                marker_364bb86a84cb82fcfa5e104e48cae59e.setIcon(icon_7d5b3b6ec17194051ab8f4b9c452a021);
+            
+    
+            var poly_line_adea6f391300b165d6d3ab3ec13df4a7 = L.polyline(
+                [[10.79705976, 106.6483953], [10.79203779, 106.4906931], [10.77657155, 106.4607895], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#aedb1b", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#aedb1b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_adea6f391300b165d6d3ab3ec13df4a7.bindTooltip(
+                `<div>
+                     Cluster 17 - #7565dd
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c043c6296aaf007bc4703d30e6cbdaa2 = L.marker(
+                [10.77657155, 106.4607895],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_821e93863b532eef68732efbfcfa857f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a4266f6badb9e5cad75971cbbb03a64d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3082150399e5f778f30f4d6aa83f6069 = $(`<div id="html_3082150399e5f778f30f4d6aa83f6069" style="width: 100.0%; height: 100.0%;">Công ty TNHH Khí Công Nghiệp Messer Việt Nam - Chi nhánh Long An - Top B</div>`)[0];
+                popup_a4266f6badb9e5cad75971cbbb03a64d.setContent(html_3082150399e5f778f30f4d6aa83f6069);
+            
+        
+
+        marker_c043c6296aaf007bc4703d30e6cbdaa2.bindPopup(popup_a4266f6badb9e5cad75971cbbb03a64d)
+        ;
+
+        
+    
+    
+                marker_c043c6296aaf007bc4703d30e6cbdaa2.setIcon(icon_821e93863b532eef68732efbfcfa857f);
+            
+    
+            var marker_05ed30e9051ceef9785880efe9edb0fd = L.marker(
+                [10.79203779, 106.4906931],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_3d982e61d3cd922db0e06a5a81c22424 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9642ff09ff7785056b55ab36f53194fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e9a20a3fdadf9b3510b023a4b201a4d = $(`<div id="html_1e9a20a3fdadf9b3510b023a4b201a4d" style="width: 100.0%; height: 100.0%;">Công Ty Cổ Phần Trực Quan - Top B</div>`)[0];
+                popup_9642ff09ff7785056b55ab36f53194fc.setContent(html_1e9a20a3fdadf9b3510b023a4b201a4d);
+            
+        
+
+        marker_05ed30e9051ceef9785880efe9edb0fd.bindPopup(popup_9642ff09ff7785056b55ab36f53194fc)
+        ;
+
+        
+    
+    
+                marker_05ed30e9051ceef9785880efe9edb0fd.setIcon(icon_3d982e61d3cd922db0e06a5a81c22424);
+            
+    
+            var poly_line_93fa7632fb930f7ab92a85b0d94f2326 = L.polyline(
+                [[10.79705976, 106.6483953], [10.7941361, 106.7425017], [10.787665, 106.7759876], [10.77425017, 106.7458596], [10.77035963, 106.745564], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#0831ef", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#0831ef", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_93fa7632fb930f7ab92a85b0d94f2326.bindTooltip(
+                `<div>
+                     Cluster 18 - #4de15b
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2b61bf228068d363a1804f5b4c42dda6 = L.marker(
+                [10.7941361, 106.7425017],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_8a2c4a0c8e411fd9e5ff9f1a7f8cf3f3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b930d56b7808b9d7cedb10711fc425ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_abad5950c9a33cb5ff653ff303d94978 = $(`<div id="html_abad5950c9a33cb5ff653ff303d94978" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Getabec Việt Nam - Top B</div>`)[0];
+                popup_b930d56b7808b9d7cedb10711fc425ba.setContent(html_abad5950c9a33cb5ff653ff303d94978);
+            
+        
+
+        marker_2b61bf228068d363a1804f5b4c42dda6.bindPopup(popup_b930d56b7808b9d7cedb10711fc425ba)
+        ;
+
+        
+    
+    
+                marker_2b61bf228068d363a1804f5b4c42dda6.setIcon(icon_8a2c4a0c8e411fd9e5ff9f1a7f8cf3f3);
+            
+    
+            var marker_0687e98ea6eee36f6cd35b31324bf2e8 = L.marker(
+                [10.77035963, 106.745564],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_ce3c33a488b401c8c01ade11f3df1018 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_48f04bcca4886da9a07a655675370dda = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c3fe51e1301a23b3aee9bf718f0554d = $(`<div id="html_3c3fe51e1301a23b3aee9bf718f0554d" style="width: 100.0%; height: 100.0%;">Công Ty Cổ Phần Thuận Hải - Top C</div>`)[0];
+                popup_48f04bcca4886da9a07a655675370dda.setContent(html_3c3fe51e1301a23b3aee9bf718f0554d);
+            
+        
+
+        marker_0687e98ea6eee36f6cd35b31324bf2e8.bindPopup(popup_48f04bcca4886da9a07a655675370dda)
+        ;
+
+        
+    
+    
+                marker_0687e98ea6eee36f6cd35b31324bf2e8.setIcon(icon_ce3c33a488b401c8c01ade11f3df1018);
+            
+    
+            var marker_7fcde42b240cd4dadf6e1a12b93868d2 = L.marker(
+                [10.77425017, 106.7458596],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_7225d3fde7684e3c84526d601d96e97e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_225a5c4c9c884571128c54dec2e1a5ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9157120b618d8a2ed7c592689145c272 = $(`<div id="html_9157120b618d8a2ed7c592689145c272" style="width: 100.0%; height: 100.0%;">Công Ty Cổ Phần Thuận Hải ENERGY - Top C</div>`)[0];
+                popup_225a5c4c9c884571128c54dec2e1a5ad.setContent(html_9157120b618d8a2ed7c592689145c272);
+            
+        
+
+        marker_7fcde42b240cd4dadf6e1a12b93868d2.bindPopup(popup_225a5c4c9c884571128c54dec2e1a5ad)
+        ;
+
+        
+    
+    
+                marker_7fcde42b240cd4dadf6e1a12b93868d2.setIcon(icon_7225d3fde7684e3c84526d601d96e97e);
+            
+    
+            var marker_c5c7a3b5e10f5a79c7936d908f5f94ff = L.marker(
+                [10.787665, 106.7759876],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_27536850f7816914b6ed864f1eefc216 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_904d90e48be095cebbf78d5004f981b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3623501909faa7fbc3784a43c07dc1ee = $(`<div id="html_3623501909faa7fbc3784a43c07dc1ee" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH KỸ THUẬT VÀ NĂNG LƯỢNG MAYZER VIỆT NAM - Top C</div>`)[0];
+                popup_904d90e48be095cebbf78d5004f981b7.setContent(html_3623501909faa7fbc3784a43c07dc1ee);
+            
+        
+
+        marker_c5c7a3b5e10f5a79c7936d908f5f94ff.bindPopup(popup_904d90e48be095cebbf78d5004f981b7)
+        ;
+
+        
+    
+    
+                marker_c5c7a3b5e10f5a79c7936d908f5f94ff.setIcon(icon_27536850f7816914b6ed864f1eefc216);
+            
+    
+            var poly_line_dcd501591c800f78d0778cbfbed8986e = L.polyline(
+                [[10.79705976, 106.6483953], [10.346015, 107.0744148], [10.37877851, 107.1114837], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#1908af", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1908af", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_dcd501591c800f78d0778cbfbed8986e.bindTooltip(
+                `<div>
+                     Cluster 19 - #65ce0a
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4bd01e65dcdf79bd5308581f4a304d28 = L.marker(
+                [10.37877851, 107.1114837],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_f5c08e2ce195cef07f4b58d07d696c14 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7e97fc0954b0da28bd0cc477c5d9a04d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_81252b2d5925ef758be0cc4fb305dafe = $(`<div id="html_81252b2d5925ef758be0cc4fb305dafe" style="width: 100.0%; height: 100.0%;">Liên danh HDEC-HSHI Hàn Quốc - Top C</div>`)[0];
+                popup_7e97fc0954b0da28bd0cc477c5d9a04d.setContent(html_81252b2d5925ef758be0cc4fb305dafe);
+            
+        
+
+        marker_4bd01e65dcdf79bd5308581f4a304d28.bindPopup(popup_7e97fc0954b0da28bd0cc477c5d9a04d)
+        ;
+
+        
+    
+    
+                marker_4bd01e65dcdf79bd5308581f4a304d28.setIcon(icon_f5c08e2ce195cef07f4b58d07d696c14);
+            
+    
+            var marker_d9532e49da6e9cc5313b9baeba67c433 = L.marker(
+                [10.346015, 107.0744148],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_c31265632019b4d8a55267a9fa1c37d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_29707378391da342873a56e0bccac13d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a163435b88f516b9a9f864cced385138 = $(`<div id="html_a163435b88f516b9a9f864cced385138" style="width: 100.0%; height: 100.0%;">CÔNG TY CỔ PHẦN DỊCH VỤ VẬN TẢI BIỂN SAO MAI VŨNG TÀU - Top B</div>`)[0];
+                popup_29707378391da342873a56e0bccac13d.setContent(html_a163435b88f516b9a9f864cced385138);
+            
+        
+
+        marker_d9532e49da6e9cc5313b9baeba67c433.bindPopup(popup_29707378391da342873a56e0bccac13d)
+        ;
+
+        
+    
+    
+                marker_d9532e49da6e9cc5313b9baeba67c433.setIcon(icon_c31265632019b4d8a55267a9fa1c37d3);
+            
+    
+            var poly_line_f6b5499c3b1eb9b814ef8536f1136b3e = L.polyline(
+                [[10.79705976, 106.6483953], [10.98120484, 106.7307555], [11.02222725, 106.6945927], [11.0181666, 106.6948632], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#3d3018", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3d3018", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_f6b5499c3b1eb9b814ef8536f1136b3e.bindTooltip(
+                `<div>
+                     Cluster 20 - #24f070
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1a5c9e2a2f7f90ae3393c4e21a3d19a7 = L.marker(
+                [11.0181666, 106.6948632],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_8436baa02d4e91eb610214f93d8d516e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e58a462be2cd6ccb0bd4f99130c841a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9e43c607b6fddb9c948c780281e9f7a = $(`<div id="html_d9e43c607b6fddb9c948c780281e9f7a" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH NAN PAO MATERIALS VIỆT NAM - Top A</div>`)[0];
+                popup_e58a462be2cd6ccb0bd4f99130c841a9.setContent(html_d9e43c607b6fddb9c948c780281e9f7a);
+            
+        
+
+        marker_1a5c9e2a2f7f90ae3393c4e21a3d19a7.bindPopup(popup_e58a462be2cd6ccb0bd4f99130c841a9)
+        ;
+
+        
+    
+    
+                marker_1a5c9e2a2f7f90ae3393c4e21a3d19a7.setIcon(icon_8436baa02d4e91eb610214f93d8d516e);
+            
+    
+            var marker_3f31ed095db0df4abfcfdf166bb6e333 = L.marker(
+                [10.98120484, 106.7307555],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_a49f6789bbb7fe7c501f1f5a488dae71 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_302bf9d7678122d6dd6fb7a35bc1f7e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a48d883d14512eb58554100ee8afd56c = $(`<div id="html_a48d883d14512eb58554100ee8afd56c" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Sản Xuất Thương Mại Dịch Vụ Kỹ Thuật Cơ Khí Tấn Tài - Top C</div>`)[0];
+                popup_302bf9d7678122d6dd6fb7a35bc1f7e4.setContent(html_a48d883d14512eb58554100ee8afd56c);
+            
+        
+
+        marker_3f31ed095db0df4abfcfdf166bb6e333.bindPopup(popup_302bf9d7678122d6dd6fb7a35bc1f7e4)
+        ;
+
+        
+    
+    
+                marker_3f31ed095db0df4abfcfdf166bb6e333.setIcon(icon_a49f6789bbb7fe7c501f1f5a488dae71);
+            
+    
+            var marker_6d1194c456303c44c70acb643fbc12bc = L.marker(
+                [11.02222725, 106.6945927],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_3debf677e607d4c92818d3900f789f9c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b37aa0eef812e14d2fd0212a29a9d812 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c117f5558ed54adeec44909bff95bef = $(`<div id="html_1c117f5558ed54adeec44909bff95bef" style="width: 100.0%; height: 100.0%;">Công Ty TNHH BEL Việt Nam - Top B</div>`)[0];
+                popup_b37aa0eef812e14d2fd0212a29a9d812.setContent(html_1c117f5558ed54adeec44909bff95bef);
+            
+        
+
+        marker_6d1194c456303c44c70acb643fbc12bc.bindPopup(popup_b37aa0eef812e14d2fd0212a29a9d812)
+        ;
+
+        
+    
+    
+                marker_6d1194c456303c44c70acb643fbc12bc.setIcon(icon_3debf677e607d4c92818d3900f789f9c);
+            
+    
+            var poly_line_02f090702e3d6b7cea1e98769d4807f8 = L.polyline(
+                [[10.79705976, 106.6483953], [10.54551762, 106.3647528], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#52532a", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#52532a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_02f090702e3d6b7cea1e98769d4807f8.bindTooltip(
+                `<div>
+                     Cluster 21 - #748cf3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_36cf7f0689518215c4950669cf78f717 = L.marker(
+                [10.54551762, 106.3647528],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_0cd42ab2641bfa022801970fe596403c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_43751f88d2743273b29ccd5e23c17a5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57ac5e9cb6d3f59395d3447cbeff0b95 = $(`<div id="html_57ac5e9cb6d3f59395d3447cbeff0b95" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH HCT FAMILY FOOD - Top A</div>`)[0];
+                popup_43751f88d2743273b29ccd5e23c17a5f.setContent(html_57ac5e9cb6d3f59395d3447cbeff0b95);
+            
+        
+
+        marker_36cf7f0689518215c4950669cf78f717.bindPopup(popup_43751f88d2743273b29ccd5e23c17a5f)
+        ;
+
+        
+    
+    
+                marker_36cf7f0689518215c4950669cf78f717.setIcon(icon_0cd42ab2641bfa022801970fe596403c);
+            
+    
+            var poly_line_6131b7e6a352f67331df1d11a07ddc10 = L.polyline(
+                [[10.79705976, 106.6483953], [10.81764531, 106.9112418], [10.81901851, 106.9193845], [10.8154389, 106.9223006], [10.81565535, 106.9302566], [10.80407945, 106.9823778], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#54ed80", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#54ed80", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_6131b7e6a352f67331df1d11a07ddc10.bindTooltip(
+                `<div>
+                     Cluster 22 - #2b17df
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_24bbe525b4b7cba820f707d669b7ba08 = L.marker(
+                [10.80407945, 106.9823778],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_3f9c36535af0b13c2b816b02ed79258c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_234df7dd28333eea4e4e0a628eda68da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7a422578c6208a35979513b9829f7a9 = $(`<div id="html_e7a422578c6208a35979513b9829f7a9" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH CÔNG NGHIỆP PHÚ THÁI - CHI NHÁNH TỈNH ĐỒNG NAI - Top A</div>`)[0];
+                popup_234df7dd28333eea4e4e0a628eda68da.setContent(html_e7a422578c6208a35979513b9829f7a9);
+            
+        
+
+        marker_24bbe525b4b7cba820f707d669b7ba08.bindPopup(popup_234df7dd28333eea4e4e0a628eda68da)
+        ;
+
+        
+    
+    
+                marker_24bbe525b4b7cba820f707d669b7ba08.setIcon(icon_3f9c36535af0b13c2b816b02ed79258c);
+            
+    
+            var marker_ae0ec2d9695cef6006160e90909d0f95 = L.marker(
+                [10.81565535, 106.9302566],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_81903883921522b8c0cb8b228bd52cae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b5f78e69960b2d0ce15ce65bfd5f6a43 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1c3135ba308c624680b16ad9eb32387 = $(`<div id="html_f1c3135ba308c624680b16ad9eb32387" style="width: 100.0%; height: 100.0%;">Chi nhánh mới Công ty TNHH Suheung Việt Nam - Top B</div>`)[0];
+                popup_b5f78e69960b2d0ce15ce65bfd5f6a43.setContent(html_f1c3135ba308c624680b16ad9eb32387);
+            
+        
+
+        marker_ae0ec2d9695cef6006160e90909d0f95.bindPopup(popup_b5f78e69960b2d0ce15ce65bfd5f6a43)
+        ;
+
+        
+    
+    
+                marker_ae0ec2d9695cef6006160e90909d0f95.setIcon(icon_81903883921522b8c0cb8b228bd52cae);
+            
+    
+            var marker_67af941dbdb46bdee239ee3e732027ce = L.marker(
+                [10.81764531, 106.9112418],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_82d62ec67c7c4cd78533fbe23fe901d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9f9fad9102b8f1972b5b6ca53bb24962 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e2e4b6e7485976cfcd6d0c468297d393 = $(`<div id="html_e2e4b6e7485976cfcd6d0c468297d393" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH DAEWON CHEMICAL VINA - Top B</div>`)[0];
+                popup_9f9fad9102b8f1972b5b6ca53bb24962.setContent(html_e2e4b6e7485976cfcd6d0c468297d393);
+            
+        
+
+        marker_67af941dbdb46bdee239ee3e732027ce.bindPopup(popup_9f9fad9102b8f1972b5b6ca53bb24962)
+        ;
+
+        
+    
+    
+                marker_67af941dbdb46bdee239ee3e732027ce.setIcon(icon_82d62ec67c7c4cd78533fbe23fe901d3);
+            
+    
+            var marker_6ccb6e41d222de1bbaa16395ce08e0de = L.marker(
+                [10.81901851, 106.9193845],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_129ab6ab73a660a38c7dbdaad94daba6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_193b5d07acefe2f21eae08fb3c6a21c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_23801623884bca25660921a2df5da869 = $(`<div id="html_23801623884bca25660921a2df5da869" style="width: 100.0%; height: 100.0%;">Công Ty TNHH SUHEUNG Việt Nam - Top A</div>`)[0];
+                popup_193b5d07acefe2f21eae08fb3c6a21c8.setContent(html_23801623884bca25660921a2df5da869);
+            
+        
+
+        marker_6ccb6e41d222de1bbaa16395ce08e0de.bindPopup(popup_193b5d07acefe2f21eae08fb3c6a21c8)
+        ;
+
+        
+    
+    
+                marker_6ccb6e41d222de1bbaa16395ce08e0de.setIcon(icon_129ab6ab73a660a38c7dbdaad94daba6);
+            
+    
+            var marker_ec6fdc250a656f098a6aefdfa4d48c83 = L.marker(
+                [10.8154389, 106.9223006],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_ffeaf6ca50719e6d9d809e65e9f44f0f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6bc09526f92716beda62cf46f5f1426 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3cdb01ac07fed96cf32f8296c92826ad = $(`<div id="html_3cdb01ac07fed96cf32f8296c92826ad" style="width: 100.0%; height: 100.0%;">Công Ty TNHH COFFEIN COMPAGNIE Việt Nam - Top C</div>`)[0];
+                popup_f6bc09526f92716beda62cf46f5f1426.setContent(html_3cdb01ac07fed96cf32f8296c92826ad);
+            
+        
+
+        marker_ec6fdc250a656f098a6aefdfa4d48c83.bindPopup(popup_f6bc09526f92716beda62cf46f5f1426)
+        ;
+
+        
+    
+    
+                marker_ec6fdc250a656f098a6aefdfa4d48c83.setIcon(icon_ffeaf6ca50719e6d9d809e65e9f44f0f);
+            
+    
+            var poly_line_55188036183a1c9cd3c61192b5e1aa25 = L.polyline(
+                [[10.79705976, 106.6483953], [10.82525746, 106.765433], [10.819592, 106.7826683], [10.83333, 106.78333], [10.84863, 106.77209], [10.84863, 106.77209], [10.86197606, 106.759135], [10.87743297, 106.7572217], [10.87728482, 106.7525347], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#4e31fc", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#4e31fc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_55188036183a1c9cd3c61192b5e1aa25.bindTooltip(
+                `<div>
+                     Cluster 23 - #6058e1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_847ae4fcd96832039121c0269a15b2e1 = L.marker(
+                [10.87728482, 106.7525347],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_d719331279a63f7af67b8ce5d93873b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_85d45d1e7958ebc4e99aa8e2ed327dc6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d510148415c7d288766ce9966737a5cd = $(`<div id="html_d510148415c7d288766ce9966737a5cd" style="width: 100.0%; height: 100.0%;">Chi Nhánh Công Ty Cổ Phần Thực Phẩm Nhất Việt - Top C</div>`)[0];
+                popup_85d45d1e7958ebc4e99aa8e2ed327dc6.setContent(html_d510148415c7d288766ce9966737a5cd);
+            
+        
+
+        marker_847ae4fcd96832039121c0269a15b2e1.bindPopup(popup_85d45d1e7958ebc4e99aa8e2ed327dc6)
+        ;
+
+        
+    
+    
+                marker_847ae4fcd96832039121c0269a15b2e1.setIcon(icon_d719331279a63f7af67b8ce5d93873b6);
+            
+    
+            var marker_3ea8578dac2bf0e56d3c11bcb364e0ba = L.marker(
+                [10.83333, 106.78333],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_cf397c41371e71b0054d80ace566e266 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f3a79ca1960372c19f91e08761b357b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0334e3f8580c3f0965f2bf21cd47908a = $(`<div id="html_0334e3f8580c3f0965f2bf21cd47908a" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Trấu Việt Sài Gòn - Top A</div>`)[0];
+                popup_f3a79ca1960372c19f91e08761b357b9.setContent(html_0334e3f8580c3f0965f2bf21cd47908a);
+            
+        
+
+        marker_3ea8578dac2bf0e56d3c11bcb364e0ba.bindPopup(popup_f3a79ca1960372c19f91e08761b357b9)
+        ;
+
+        
+    
+    
+                marker_3ea8578dac2bf0e56d3c11bcb364e0ba.setIcon(icon_cf397c41371e71b0054d80ace566e266);
+            
+    
+            var marker_62124c54e4739dda24014ddb08c8aa9a = L.marker(
+                [10.819592, 106.7826683],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_90320c21154f0a97d5e045302b20a449 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6b1c37243aaf7e39f762dc11059d7de1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95294d7029c6217502c5b654edd0c8bb = $(`<div id="html_95294d7029c6217502c5b654edd0c8bb" style="width: 100.0%; height: 100.0%;">Công ty TNHH Sản xuất Thương mại Dịch vụ Yên Khuê - Top C</div>`)[0];
+                popup_6b1c37243aaf7e39f762dc11059d7de1.setContent(html_95294d7029c6217502c5b654edd0c8bb);
+            
+        
+
+        marker_62124c54e4739dda24014ddb08c8aa9a.bindPopup(popup_6b1c37243aaf7e39f762dc11059d7de1)
+        ;
+
+        
+    
+    
+                marker_62124c54e4739dda24014ddb08c8aa9a.setIcon(icon_90320c21154f0a97d5e045302b20a449);
+            
+    
+            var marker_cd97b25dc6ef270b8b31f0a92dc69816 = L.marker(
+                [10.82525746, 106.765433],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_4c6a7229d5bd6476a1e46c72b215acc1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_29ca492b8cc5a981aa4a8f2a8c03acb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4a3539b71f898b30aa87baaaa1435d7 = $(`<div id="html_f4a3539b71f898b30aa87baaaa1435d7" style="width: 100.0%; height: 100.0%;">Công Ty Cổ Phần Phát Triển Và Công Nghệ TPP - Top C</div>`)[0];
+                popup_29ca492b8cc5a981aa4a8f2a8c03acb4.setContent(html_f4a3539b71f898b30aa87baaaa1435d7);
+            
+        
+
+        marker_cd97b25dc6ef270b8b31f0a92dc69816.bindPopup(popup_29ca492b8cc5a981aa4a8f2a8c03acb4)
+        ;
+
+        
+    
+    
+                marker_cd97b25dc6ef270b8b31f0a92dc69816.setIcon(icon_4c6a7229d5bd6476a1e46c72b215acc1);
+            
+    
+            var marker_8845403ed7a3038d1ac2ccf87d8d28df = L.marker(
+                [10.87743297, 106.7572217],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_8e1407c9aadd39c898421e6c2f09d45b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_060c55a4dd3d62b6fe8db1c08250eddd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5cd6e87df8c4b133ce7caf103616517 = $(`<div id="html_d5cd6e87df8c4b133ce7caf103616517" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Thương Mại Dịch Vụ N H K - Top C</div>`)[0];
+                popup_060c55a4dd3d62b6fe8db1c08250eddd.setContent(html_d5cd6e87df8c4b133ce7caf103616517);
+            
+        
+
+        marker_8845403ed7a3038d1ac2ccf87d8d28df.bindPopup(popup_060c55a4dd3d62b6fe8db1c08250eddd)
+        ;
+
+        
+    
+    
+                marker_8845403ed7a3038d1ac2ccf87d8d28df.setIcon(icon_8e1407c9aadd39c898421e6c2f09d45b);
+            
+    
+            var marker_fe5b3988f48e7a473f0d3c634f7c123b = L.marker(
+                [10.86197606, 106.759135],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_77094c2eb95671c558e4dff6a9b124e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_be4616d38844b7fa08c7ec30001271e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13245a2189e230122c8852447dd80c66 = $(`<div id="html_13245a2189e230122c8852447dd80c66" style="width: 100.0%; height: 100.0%;">Công ty TNHH Một Thành Viên Dịch Vụ Kỹ Thuật Hữu Tài - Top C</div>`)[0];
+                popup_be4616d38844b7fa08c7ec30001271e1.setContent(html_13245a2189e230122c8852447dd80c66);
+            
+        
+
+        marker_fe5b3988f48e7a473f0d3c634f7c123b.bindPopup(popup_be4616d38844b7fa08c7ec30001271e1)
+        ;
+
+        
+    
+    
+                marker_fe5b3988f48e7a473f0d3c634f7c123b.setIcon(icon_77094c2eb95671c558e4dff6a9b124e1);
+            
+    
+            var marker_c51e34d68e9ab6fde8e195c9ea44a739 = L.marker(
+                [10.84863, 106.77209],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_fa20b71700983c304ffbce512f02184b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_58d902972a70786786f063fc7b1eedee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_265f73c61462a00c42c4d07d3c160070 = $(`<div id="html_265f73c61462a00c42c4d07d3c160070" style="width: 100.0%; height: 100.0%;">Công Ty TNHH TM DV Kỹ Thuật Tân Khang Đạt - Top C</div>`)[0];
+                popup_58d902972a70786786f063fc7b1eedee.setContent(html_265f73c61462a00c42c4d07d3c160070);
+            
+        
+
+        marker_c51e34d68e9ab6fde8e195c9ea44a739.bindPopup(popup_58d902972a70786786f063fc7b1eedee)
+        ;
+
+        
+    
+    
+                marker_c51e34d68e9ab6fde8e195c9ea44a739.setIcon(icon_fa20b71700983c304ffbce512f02184b);
+            
+    
+            var marker_3ed23449f0e155120939e697be10de53 = L.marker(
+                [10.84863, 106.77209],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_2455c72503daa697ace8c647dfa44894 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3b9db3c34c1ecf18a7a4c1e72c52f8e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa15354808a8792d8995cc6f778ac3fa = $(`<div id="html_fa15354808a8792d8995cc6f778ac3fa" style="width: 100.0%; height: 100.0%;">CÔNG TY TRÁCH NHIỆM HỮU HẠN ĐẠI ĐỒNG TIẾN PHÁT - Top B</div>`)[0];
+                popup_3b9db3c34c1ecf18a7a4c1e72c52f8e2.setContent(html_fa15354808a8792d8995cc6f778ac3fa);
+            
+        
+
+        marker_3ed23449f0e155120939e697be10de53.bindPopup(popup_3b9db3c34c1ecf18a7a4c1e72c52f8e2)
+        ;
+
+        
+    
+    
+                marker_3ed23449f0e155120939e697be10de53.setIcon(icon_2455c72503daa697ace8c647dfa44894);
+            
+    
+            var poly_line_6d439d33583d86c4a4c689e899161d9a = L.polyline(
+                [[10.79705976, 106.6483953], [11.16986881, 106.6967772], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#5e5b15", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#5e5b15", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_6d439d33583d86c4a4c689e899161d9a.bindTooltip(
+                `<div>
+                     Cluster 24 - #8bb60a
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c2d762fe1ee810c65f9ac1c0035038d5 = L.marker(
+                [11.16986881, 106.6967772],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_95072784884a2a5d7ea577873addeef7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d7f201d9e0f75aea9c1b947c4ec4e510 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9eeca821a40a38f82fe7e511a7e44667 = $(`<div id="html_9eeca821a40a38f82fe7e511a7e44667" style="width: 100.0%; height: 100.0%;">Công Ty Cổ Phần APIS - Top C</div>`)[0];
+                popup_d7f201d9e0f75aea9c1b947c4ec4e510.setContent(html_9eeca821a40a38f82fe7e511a7e44667);
+            
+        
+
+        marker_c2d762fe1ee810c65f9ac1c0035038d5.bindPopup(popup_d7f201d9e0f75aea9c1b947c4ec4e510)
+        ;
+
+        
+    
+    
+                marker_c2d762fe1ee810c65f9ac1c0035038d5.setIcon(icon_95072784884a2a5d7ea577873addeef7);
+            
+    
+            var poly_line_ae823a1986367d256d529f083bc5f34d = L.polyline(
+                [[10.79705976, 106.6483953], [10.68858, 106.45484], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#53fe93", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#53fe93", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_ae823a1986367d256d529f083bc5f34d.bindTooltip(
+                `<div>
+                     Cluster 25 - #9f4266
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d3b485352627a559cb6469aa925eb26d = L.marker(
+                [10.68858, 106.45484],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_8880fda3f6c747be68ee88cbe866400f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_47d61cdc9b3de46492e33db629ca7fb1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4045e6896e0d6f1ac6eef7f04deab1c9 = $(`<div id="html_4045e6896e0d6f1ac6eef7f04deab1c9" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH PERFETTI VAN MELLE (VIỆT NAM) - Top C</div>`)[0];
+                popup_47d61cdc9b3de46492e33db629ca7fb1.setContent(html_4045e6896e0d6f1ac6eef7f04deab1c9);
+            
+        
+
+        marker_d3b485352627a559cb6469aa925eb26d.bindPopup(popup_47d61cdc9b3de46492e33db629ca7fb1)
+        ;
+
+        
+    
+    
+                marker_d3b485352627a559cb6469aa925eb26d.setIcon(icon_8880fda3f6c747be68ee88cbe866400f);
+            
+    
+            var poly_line_280eb30200ae8f28b5e87bb3b534c3ce = L.polyline(
+                [[10.79705976, 106.6483953], [10.9522085, 106.8675942], [10.95237584, 106.8960249], [10.9562534, 106.8977153], [10.96930384, 106.8931936], [10.96573484, 106.8780906], [10.9741173, 106.8796277], [10.97707934, 106.8673818], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#a87173", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#a87173", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_280eb30200ae8f28b5e87bb3b534c3ce.bindTooltip(
+                `<div>
+                     Cluster 26 - #2375f5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f3c2cffbbc8ee43968e3b72a80941df2 = L.marker(
+                [10.9522085, 106.8675942],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_ecf7b980e160f0defc4157f085aa5a91 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4f683d44e42f8eeb1726cd23c4ff0b32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_152c50289ea3a54df743f40a9c01b04a = $(`<div id="html_152c50289ea3a54df743f40a9c01b04a" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Kim Trường Phúc - Top A</div>`)[0];
+                popup_4f683d44e42f8eeb1726cd23c4ff0b32.setContent(html_152c50289ea3a54df743f40a9c01b04a);
+            
+        
+
+        marker_f3c2cffbbc8ee43968e3b72a80941df2.bindPopup(popup_4f683d44e42f8eeb1726cd23c4ff0b32)
+        ;
+
+        
+    
+    
+                marker_f3c2cffbbc8ee43968e3b72a80941df2.setIcon(icon_ecf7b980e160f0defc4157f085aa5a91);
+            
+    
+            var marker_468873c2cdc20faa83bb29465148a4ba = L.marker(
+                [10.9741173, 106.8796277],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_50ba53b914d897e0a0827e535ebaad16 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_20eb385b8fe6443b35149f2350175ed5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb62496b25d4394a6f550a71679509d3 = $(`<div id="html_fb62496b25d4394a6f550a71679509d3" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Phúc Trường Hải - Top A</div>`)[0];
+                popup_20eb385b8fe6443b35149f2350175ed5.setContent(html_fb62496b25d4394a6f550a71679509d3);
+            
+        
+
+        marker_468873c2cdc20faa83bb29465148a4ba.bindPopup(popup_20eb385b8fe6443b35149f2350175ed5)
+        ;
+
+        
+    
+    
+                marker_468873c2cdc20faa83bb29465148a4ba.setIcon(icon_50ba53b914d897e0a0827e535ebaad16);
+            
+    
+            var marker_6f94116dd28b4daeba3691b4cec8c9f1 = L.marker(
+                [10.96930384, 106.8931936],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_0faf33aa8964d9b065dcee48cb3dfdbd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a74b12f7ee0ad35491c093a0674a0583 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_adb062aeac8ebb48c99ad2f8f2bb9033 = $(`<div id="html_adb062aeac8ebb48c99ad2f8f2bb9033" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Thương Mại - Dịch Vụ Phú Cường Thịnh - Top B</div>`)[0];
+                popup_a74b12f7ee0ad35491c093a0674a0583.setContent(html_adb062aeac8ebb48c99ad2f8f2bb9033);
+            
+        
+
+        marker_6f94116dd28b4daeba3691b4cec8c9f1.bindPopup(popup_a74b12f7ee0ad35491c093a0674a0583)
+        ;
+
+        
+    
+    
+                marker_6f94116dd28b4daeba3691b4cec8c9f1.setIcon(icon_0faf33aa8964d9b065dcee48cb3dfdbd);
+            
+    
+            var marker_46dbf8a0bd9a304a602a2ccbebaba9c0 = L.marker(
+                [10.97707934, 106.8673818],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_66a3a3f2aa8d1b0b3f1e7adb846df65a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e6ddc3c4b463de8eb83ed4ec53eb3a59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86882f1da7ff9444f87cec101b3a3029 = $(`<div id="html_86882f1da7ff9444f87cec101b3a3029" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Một Thành Viên Ngọc Quang Phát - Top B</div>`)[0];
+                popup_e6ddc3c4b463de8eb83ed4ec53eb3a59.setContent(html_86882f1da7ff9444f87cec101b3a3029);
+            
+        
+
+        marker_46dbf8a0bd9a304a602a2ccbebaba9c0.bindPopup(popup_e6ddc3c4b463de8eb83ed4ec53eb3a59)
+        ;
+
+        
+    
+    
+                marker_46dbf8a0bd9a304a602a2ccbebaba9c0.setIcon(icon_66a3a3f2aa8d1b0b3f1e7adb846df65a);
+            
+    
+            var marker_40b007e1c9d4631735b02b87b2ffbf11 = L.marker(
+                [10.95237584, 106.8960249],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_b995a017f6bc6a68b9e6c53161994d17 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_387a5432dae898796901e0522cf1562f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dfc5755af40440434fc881bf55aea6bd = $(`<div id="html_dfc5755af40440434fc881bf55aea6bd" style="width: 100.0%; height: 100.0%;">Công Ty TNHH SAITEX INTERNATIONAL Đồng Nai (VN) - Top B</div>`)[0];
+                popup_387a5432dae898796901e0522cf1562f.setContent(html_dfc5755af40440434fc881bf55aea6bd);
+            
+        
+
+        marker_40b007e1c9d4631735b02b87b2ffbf11.bindPopup(popup_387a5432dae898796901e0522cf1562f)
+        ;
+
+        
+    
+    
+                marker_40b007e1c9d4631735b02b87b2ffbf11.setIcon(icon_b995a017f6bc6a68b9e6c53161994d17);
+            
+    
+            var marker_d74659c1a3eb3457cdd0c363c71de012 = L.marker(
+                [10.9562534, 106.8977153],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_7a1d6bc77e49cdab8300d48fcd527015 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_82210fc59fa8f9ccb5b66ae452648787 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e259a16817f8d40b56887dfe43ad0f73 = $(`<div id="html_e259a16817f8d40b56887dfe43ad0f73" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Việt Nam NISSHIN SEIFUN - Top B</div>`)[0];
+                popup_82210fc59fa8f9ccb5b66ae452648787.setContent(html_e259a16817f8d40b56887dfe43ad0f73);
+            
+        
+
+        marker_d74659c1a3eb3457cdd0c363c71de012.bindPopup(popup_82210fc59fa8f9ccb5b66ae452648787)
+        ;
+
+        
+    
+    
+                marker_d74659c1a3eb3457cdd0c363c71de012.setIcon(icon_7a1d6bc77e49cdab8300d48fcd527015);
+            
+    
+            var marker_3a790f84e9b15810af390503e9eb6900 = L.marker(
+                [10.96573484, 106.8780906],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_2cb1b0b3dca2bf675e87279df3dc57da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bac2693dd265c12d74fedcf206c694a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_045569c4d57b4a75ec218756175ead01 = $(`<div id="html_045569c4d57b4a75ec218756175ead01" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH MTV CƠ KHÍ XÂY DỰNG NHẬT THÀNH - Top B</div>`)[0];
+                popup_bac2693dd265c12d74fedcf206c694a8.setContent(html_045569c4d57b4a75ec218756175ead01);
+            
+        
+
+        marker_3a790f84e9b15810af390503e9eb6900.bindPopup(popup_bac2693dd265c12d74fedcf206c694a8)
+        ;
+
+        
+    
+    
+                marker_3a790f84e9b15810af390503e9eb6900.setIcon(icon_2cb1b0b3dca2bf675e87279df3dc57da);
+            
+    
+            var poly_line_17e13e4864ce1700d70d7d4c7dfafbd1 = L.polyline(
+                [[10.79705976, 106.6483953], [10.80250319, 106.6461054], [10.82193334, 106.6390534], [10.8366465, 106.6346772], [10.85447413, 106.6490289], [10.85010984, 106.6502574], [10.80934689, 106.6497493], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#4c64ab", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#4c64ab", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_17e13e4864ce1700d70d7d4c7dfafbd1.bindTooltip(
+                `<div>
+                     Cluster 27 - #6773ce
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3d204c8f09f79a26142f8fc982432124 = L.marker(
+                [10.85447413, 106.6490289],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_6d7abebf6afe443fdfc9d07c6af9995b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e6bf3ab2a5f287973dae2ba3ad868d5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0adc9fe895adc0c29025854529664607 = $(`<div id="html_0adc9fe895adc0c29025854529664607" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Cơ Nhiệt Điện Sài Gòn - Top C</div>`)[0];
+                popup_e6bf3ab2a5f287973dae2ba3ad868d5d.setContent(html_0adc9fe895adc0c29025854529664607);
+            
+        
+
+        marker_3d204c8f09f79a26142f8fc982432124.bindPopup(popup_e6bf3ab2a5f287973dae2ba3ad868d5d)
+        ;
+
+        
+    
+    
+                marker_3d204c8f09f79a26142f8fc982432124.setIcon(icon_6d7abebf6afe443fdfc9d07c6af9995b);
+            
+    
+            var marker_6744a5bc55da9802cc79929e2cc22a35 = L.marker(
+                [10.82193334, 106.6390534],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_64584e024294b8ef8891d3f68e2f330d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ca6d75d23aaf7fb9911b124bd0e36ad7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44b622efce316c2b239c86390ca73eed = $(`<div id="html_44b622efce316c2b239c86390ca73eed" style="width: 100.0%; height: 100.0%;">Công Ty Cổ Phần Nồi Hơi Sài Gòn - Top B</div>`)[0];
+                popup_ca6d75d23aaf7fb9911b124bd0e36ad7.setContent(html_44b622efce316c2b239c86390ca73eed);
+            
+        
+
+        marker_6744a5bc55da9802cc79929e2cc22a35.bindPopup(popup_ca6d75d23aaf7fb9911b124bd0e36ad7)
+        ;
+
+        
+    
+    
+                marker_6744a5bc55da9802cc79929e2cc22a35.setIcon(icon_64584e024294b8ef8891d3f68e2f330d);
+            
+    
+            var marker_877809ca3c536ec14645e2e4fcf7d9b8 = L.marker(
+                [10.85010984, 106.6502574],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_1e00d95fdeadf0e2bd17794b4fb0abfa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_89e7317e2f9100d410f4bd9663bf1c3c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29bdc9713e8b7c6ea8e497de9efa3e57 = $(`<div id="html_29bdc9713e8b7c6ea8e497de9efa3e57" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH SẢN XUẤT DỊCH VỤ LONG CHENG - Top A</div>`)[0];
+                popup_89e7317e2f9100d410f4bd9663bf1c3c.setContent(html_29bdc9713e8b7c6ea8e497de9efa3e57);
+            
+        
+
+        marker_877809ca3c536ec14645e2e4fcf7d9b8.bindPopup(popup_89e7317e2f9100d410f4bd9663bf1c3c)
+        ;
+
+        
+    
+    
+                marker_877809ca3c536ec14645e2e4fcf7d9b8.setIcon(icon_1e00d95fdeadf0e2bd17794b4fb0abfa);
+            
+    
+            var marker_4d071fb2469d9165f6553a1077e0afd6 = L.marker(
+                [10.80934689, 106.6497493],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_f58ef6fc13b53a370de095ba7db35997 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1eabaa94ffc426c4b2daf4f95b51eb35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3a9981d540db05dd0a089e14b6ef1d9 = $(`<div id="html_a3a9981d540db05dd0a089e14b6ef1d9" style="width: 100.0%; height: 100.0%;">Công Ty Cổ Phần Đầu Tư Khoáng Sản-Than Đông Bắc - Top C</div>`)[0];
+                popup_1eabaa94ffc426c4b2daf4f95b51eb35.setContent(html_a3a9981d540db05dd0a089e14b6ef1d9);
+            
+        
+
+        marker_4d071fb2469d9165f6553a1077e0afd6.bindPopup(popup_1eabaa94ffc426c4b2daf4f95b51eb35)
+        ;
+
+        
+    
+    
+                marker_4d071fb2469d9165f6553a1077e0afd6.setIcon(icon_f58ef6fc13b53a370de095ba7db35997);
+            
+    
+            var marker_683614eb615ad99c046e9c9a5c307afd = L.marker(
+                [10.80250319, 106.6461054],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_7b6ce2d924167b0a6189125383eb5780 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9137fea12f79cdb312573e2dcbc71160 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c9988553d35ea8af8d5b4ed3a01e1799 = $(`<div id="html_c9988553d35ea8af8d5b4ed3a01e1799" style="width: 100.0%; height: 100.0%;">CÔNG TY CỔ PHẦN ĐẦU TƯ CÔNG NGHIỆP XUẤT NHẬP KHẨU ĐÔNG DƯƠNG - Top B</div>`)[0];
+                popup_9137fea12f79cdb312573e2dcbc71160.setContent(html_c9988553d35ea8af8d5b4ed3a01e1799);
+            
+        
+
+        marker_683614eb615ad99c046e9c9a5c307afd.bindPopup(popup_9137fea12f79cdb312573e2dcbc71160)
+        ;
+
+        
+    
+    
+                marker_683614eb615ad99c046e9c9a5c307afd.setIcon(icon_7b6ce2d924167b0a6189125383eb5780);
+            
+    
+            var marker_d80fa8432b2cc074275403fde2e26c01 = L.marker(
+                [10.8366465, 106.6346772],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_d0a2d50f536751c1fc17072eee8c26ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8eb2043ddc0281e474d35d48ee81cb65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ac39cb92abf40e0776be225254948aa = $(`<div id="html_9ac39cb92abf40e0776be225254948aa" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Công Nghệ L.Q - Top B</div>`)[0];
+                popup_8eb2043ddc0281e474d35d48ee81cb65.setContent(html_9ac39cb92abf40e0776be225254948aa);
+            
+        
+
+        marker_d80fa8432b2cc074275403fde2e26c01.bindPopup(popup_8eb2043ddc0281e474d35d48ee81cb65)
+        ;
+
+        
+    
+    
+                marker_d80fa8432b2cc074275403fde2e26c01.setIcon(icon_d0a2d50f536751c1fc17072eee8c26ae);
+            
+    
+            var poly_line_d6fe219b30f56f50605728dddedcc70e = L.polyline(
+                [[10.79705976, 106.6483953], [10.98612559, 106.4910257], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#4b5877", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#4b5877", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_d6fe219b30f56f50605728dddedcc70e.bindTooltip(
+                `<div>
+                     Cluster 28 - #788514
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5ccaaf521a3ce086707357ceea98e815 = L.marker(
+                [10.98612559, 106.4910257],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_f5670989b9ce6afcc0572e3c61d03444 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_349d9267769eb8041ec19691e457f9ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21b4d6b6f3fc349f55aacb9c3a338c50 = $(`<div id="html_21b4d6b6f3fc349f55aacb9c3a338c50" style="width: 100.0%; height: 100.0%;">CHI NHÁNH CÔNG TY CỔ PHẦN SỮA QUỐC TẾ-NHÀ MÁY SỮA QUỐC TẾ CỦ CHI - Top C</div>`)[0];
+                popup_349d9267769eb8041ec19691e457f9ad.setContent(html_21b4d6b6f3fc349f55aacb9c3a338c50);
+            
+        
+
+        marker_5ccaaf521a3ce086707357ceea98e815.bindPopup(popup_349d9267769eb8041ec19691e457f9ad)
+        ;
+
+        
+    
+    
+                marker_5ccaaf521a3ce086707357ceea98e815.setIcon(icon_f5670989b9ce6afcc0572e3c61d03444);
+            
+    
+            var poly_line_67898144df75f867d086fcaaceb4c97e = L.polyline(
+                [[10.79705976, 106.6483953], [10.79540142, 106.6484633], [10.79218659, 106.6452774], [10.78226792, 106.6237783], [10.7782766, 106.64545], [10.76704985, 106.6487025], [10.730561, 106.6461003], [10.78177049, 106.6749231], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#8c1467", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8c1467", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_67898144df75f867d086fcaaceb4c97e.bindTooltip(
+                `<div>
+                     Cluster 29 - #989f57
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a1537b3ff143f9a520e267f714a5eeea = L.marker(
+                [10.76704985, 106.6487025],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_20b71902f4f04321ff2b99ec0d24f35d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_10d86a8ce8f5871630e5a3c4e4035b47 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27fd03f04fe4bb089c7043d21c377107 = $(`<div id="html_27fd03f04fe4bb089c7043d21c377107" style="width: 100.0%; height: 100.0%;">Công ty TNHH Cơ Nhiệt Lạnh Hồng Nhựt - Top B</div>`)[0];
+                popup_10d86a8ce8f5871630e5a3c4e4035b47.setContent(html_27fd03f04fe4bb089c7043d21c377107);
+            
+        
+
+        marker_a1537b3ff143f9a520e267f714a5eeea.bindPopup(popup_10d86a8ce8f5871630e5a3c4e4035b47)
+        ;
+
+        
+    
+    
+                marker_a1537b3ff143f9a520e267f714a5eeea.setIcon(icon_20b71902f4f04321ff2b99ec0d24f35d);
+            
+    
+            var marker_95df5a1e2eb3567af585d49c6c01f8e6 = L.marker(
+                [10.79540142, 106.6484633],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_c4472f8a5ad74e27fdb13e967fc21353 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2f2524ea079353debcbd1d7901b89d8a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6bccdad2b494ca03f43e067dd5f7eff2 = $(`<div id="html_6bccdad2b494ca03f43e067dd5f7eff2" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Thương Mại Dịch Vụ Hiệp Vương - Top C</div>`)[0];
+                popup_2f2524ea079353debcbd1d7901b89d8a.setContent(html_6bccdad2b494ca03f43e067dd5f7eff2);
+            
+        
+
+        marker_95df5a1e2eb3567af585d49c6c01f8e6.bindPopup(popup_2f2524ea079353debcbd1d7901b89d8a)
+        ;
+
+        
+    
+    
+                marker_95df5a1e2eb3567af585d49c6c01f8e6.setIcon(icon_c4472f8a5ad74e27fdb13e967fc21353);
+            
+    
+            var marker_c75c055b08a7ebf0017dc9e0e5b7d842 = L.marker(
+                [10.7782766, 106.64545],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_da12c76d58fe74d2bee74557a580d5ff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c3c2e58198f58d5ad1762df4b4f02bb9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ef13c56155b46ad2c7fa6eca71032fb = $(`<div id="html_7ef13c56155b46ad2c7fa6eca71032fb" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Kỹ Thuật Dịch Vụ Minh Quang - Top A</div>`)[0];
+                popup_c3c2e58198f58d5ad1762df4b4f02bb9.setContent(html_7ef13c56155b46ad2c7fa6eca71032fb);
+            
+        
+
+        marker_c75c055b08a7ebf0017dc9e0e5b7d842.bindPopup(popup_c3c2e58198f58d5ad1762df4b4f02bb9)
+        ;
+
+        
+    
+    
+                marker_c75c055b08a7ebf0017dc9e0e5b7d842.setIcon(icon_da12c76d58fe74d2bee74557a580d5ff);
+            
+    
+            var marker_965ec996a509d7513811724628c8d058 = L.marker(
+                [10.78226792, 106.6237783],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_0b21d3180fda7f7fe50f6da8ed653680 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e8816ba6b2b09ef8ce52fa952f3b27fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6ef81e6517aa2f60c1c08892560df05 = $(`<div id="html_f6ef81e6517aa2f60c1c08892560df05" style="width: 100.0%; height: 100.0%;">Công ty TNHH TM SX Cơ Nhiệt Tâm Bình - Top C</div>`)[0];
+                popup_e8816ba6b2b09ef8ce52fa952f3b27fd.setContent(html_f6ef81e6517aa2f60c1c08892560df05);
+            
+        
+
+        marker_965ec996a509d7513811724628c8d058.bindPopup(popup_e8816ba6b2b09ef8ce52fa952f3b27fd)
+        ;
+
+        
+    
+    
+                marker_965ec996a509d7513811724628c8d058.setIcon(icon_0b21d3180fda7f7fe50f6da8ed653680);
+            
+    
+            var marker_3d2a4a67c1aabfab9f60f26ee3002624 = L.marker(
+                [10.730561, 106.6461003],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_2720b903f2ac06140056098d6a9f0cb0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e1195aed4ad8a6c45ea689fc5262093d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_05ebdd748d8dcd46a052d0b576a1db70 = $(`<div id="html_05ebdd748d8dcd46a052d0b576a1db70" style="width: 100.0%; height: 100.0%;">Công Ty TNHH San Hà - Top C</div>`)[0];
+                popup_e1195aed4ad8a6c45ea689fc5262093d.setContent(html_05ebdd748d8dcd46a052d0b576a1db70);
+            
+        
+
+        marker_3d2a4a67c1aabfab9f60f26ee3002624.bindPopup(popup_e1195aed4ad8a6c45ea689fc5262093d)
+        ;
+
+        
+    
+    
+                marker_3d2a4a67c1aabfab9f60f26ee3002624.setIcon(icon_2720b903f2ac06140056098d6a9f0cb0);
+            
+    
+            var marker_1db8fbe8c8164dd6901d866ffd458ee1 = L.marker(
+                [10.78177049, 106.6749231],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_82c5ceead54f06c8e5e05906d6597b41 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2d89a22b51b09a34fc1e4346e6fd3259 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47dfbf9a68d5f52c59b9aadcab246e4e = $(`<div id="html_47dfbf9a68d5f52c59b9aadcab246e4e" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Thương Mại Kỹ Thuật Đông Phương - Top B</div>`)[0];
+                popup_2d89a22b51b09a34fc1e4346e6fd3259.setContent(html_47dfbf9a68d5f52c59b9aadcab246e4e);
+            
+        
+
+        marker_1db8fbe8c8164dd6901d866ffd458ee1.bindPopup(popup_2d89a22b51b09a34fc1e4346e6fd3259)
+        ;
+
+        
+    
+    
+                marker_1db8fbe8c8164dd6901d866ffd458ee1.setIcon(icon_82c5ceead54f06c8e5e05906d6597b41);
+            
+    
+            var marker_657cee2cca241403b99995e721d941f9 = L.marker(
+                [10.79218659, 106.6452774],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_7649d98339140f86f851e24feafac1df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5d6d4e36e722330a6aff71cf9e4671ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_481650d43b3687978a790960f3f2d239 = $(`<div id="html_481650d43b3687978a790960f3f2d239" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH ĐÔNG NAM BOILER - Top B</div>`)[0];
+                popup_5d6d4e36e722330a6aff71cf9e4671ff.setContent(html_481650d43b3687978a790960f3f2d239);
+            
+        
+
+        marker_657cee2cca241403b99995e721d941f9.bindPopup(popup_5d6d4e36e722330a6aff71cf9e4671ff)
+        ;
+
+        
+    
+    
+                marker_657cee2cca241403b99995e721d941f9.setIcon(icon_7649d98339140f86f851e24feafac1df);
+            
+    
+            var poly_line_7e46cb6df2f1a2679fe1580237c02079 = L.polyline(
+                [[10.79705976, 106.6483953], [10.61778831, 106.7556392], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#730622", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#730622", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_7e46cb6df2f1a2679fe1580237c02079.bindTooltip(
+                `<div>
+                     Cluster 30 - #81cd95
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1b7691e178e2abe32f6d328bdeee0793 = L.marker(
+                [10.61778831, 106.7556392],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_bccca83f755ff28de5ddfa4de007a47d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d072c0296d2171fa1b174969579f301 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_082ac8074e07e1a0178ed1fc81869b07 = $(`<div id="html_082ac8074e07e1a0178ed1fc81869b07" style="width: 100.0%; height: 100.0%;">CÔNG TY TNHH SƠN JOTUN VIỆT NAM – CHI NHÁNH HIỆP PHƯỚC – TP. HỒ CHÍ MINH - Top A</div>`)[0];
+                popup_6d072c0296d2171fa1b174969579f301.setContent(html_082ac8074e07e1a0178ed1fc81869b07);
+            
+        
+
+        marker_1b7691e178e2abe32f6d328bdeee0793.bindPopup(popup_6d072c0296d2171fa1b174969579f301)
+        ;
+
+        
+    
+    
+                marker_1b7691e178e2abe32f6d328bdeee0793.setIcon(icon_bccca83f755ff28de5ddfa4de007a47d);
+            
+    
+            var poly_line_7c7abac8ccfa0178086efc8db81e1fe0 = L.polyline(
+                [[10.79705976, 106.6483953], [10.76430367, 106.6909969], [10.74502983, 106.7054648], [10.7390255, 106.7055622], [10.72872433, 106.7041483], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#859515", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#859515", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_7c7abac8ccfa0178086efc8db81e1fe0.bindTooltip(
+                `<div>
+                     Cluster 31 - #70d4cd
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ac51b8481c7b02c258e77aa0e0c9f64d = L.marker(
+                [10.76430367, 106.6909969],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_ff5041ec8b3db156ba34330c24c0b7b3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1f735d24897afc5502ab280a65ce49c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6f0e221adf9f853319e497d28a01065 = $(`<div id="html_b6f0e221adf9f853319e497d28a01065" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Sản Xuất Nồi Hơi Thiên Phát - Top C</div>`)[0];
+                popup_1f735d24897afc5502ab280a65ce49c5.setContent(html_b6f0e221adf9f853319e497d28a01065);
+            
+        
+
+        marker_ac51b8481c7b02c258e77aa0e0c9f64d.bindPopup(popup_1f735d24897afc5502ab280a65ce49c5)
+        ;
+
+        
+    
+    
+                marker_ac51b8481c7b02c258e77aa0e0c9f64d.setIcon(icon_ff5041ec8b3db156ba34330c24c0b7b3);
+            
+    
+            var marker_92a478b92618d119535f11918f8785a6 = L.marker(
+                [10.74502983, 106.7054648],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_5802a2a211d10624b62dafbe5134d780 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_914fca8cb9a8134467ae19364e22fa98 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45f941caddb26470ccc140a1400797e4 = $(`<div id="html_45f941caddb26470ccc140a1400797e4" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Khoa Học Dinh Dưỡng Orgalife - Top C</div>`)[0];
+                popup_914fca8cb9a8134467ae19364e22fa98.setContent(html_45f941caddb26470ccc140a1400797e4);
+            
+        
+
+        marker_92a478b92618d119535f11918f8785a6.bindPopup(popup_914fca8cb9a8134467ae19364e22fa98)
+        ;
+
+        
+    
+    
+                marker_92a478b92618d119535f11918f8785a6.setIcon(icon_5802a2a211d10624b62dafbe5134d780);
+            
+    
+            var marker_2e4baf3392b8178c2df4e2cf980b7cf6 = L.marker(
+                [10.7390255, 106.7055622],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_4d5bc7e2e3a5a6e55f1056401a8768fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7fed141fe3d9f44022097d8e720a1acb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b55fe46f4a0d1211819f5ca2d03e83f = $(`<div id="html_1b55fe46f4a0d1211819f5ca2d03e83f" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Sản Xuất Và Thương Mại Quốc Tế KS - Top C</div>`)[0];
+                popup_7fed141fe3d9f44022097d8e720a1acb.setContent(html_1b55fe46f4a0d1211819f5ca2d03e83f);
+            
+        
+
+        marker_2e4baf3392b8178c2df4e2cf980b7cf6.bindPopup(popup_7fed141fe3d9f44022097d8e720a1acb)
+        ;
+
+        
+    
+    
+                marker_2e4baf3392b8178c2df4e2cf980b7cf6.setIcon(icon_4d5bc7e2e3a5a6e55f1056401a8768fb);
+            
+    
+            var marker_f80189fafd03ca0b3d74b94dccd9ede9 = L.marker(
+                [10.72872433, 106.7041483],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_f6b0d3045279f070aff0927aa06e903f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae1af402dfda43fe1e07ccd0f9b5cd69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65f90b6f0b3742e579b938b539135231 = $(`<div id="html_65f90b6f0b3742e579b938b539135231" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Năng Lượng Thiên Bình - Top A</div>`)[0];
+                popup_ae1af402dfda43fe1e07ccd0f9b5cd69.setContent(html_65f90b6f0b3742e579b938b539135231);
+            
+        
+
+        marker_f80189fafd03ca0b3d74b94dccd9ede9.bindPopup(popup_ae1af402dfda43fe1e07ccd0f9b5cd69)
+        ;
+
+        
+    
+    
+                marker_f80189fafd03ca0b3d74b94dccd9ede9.setIcon(icon_f6b0d3045279f070aff0927aa06e903f);
+            
+    
+            var poly_line_87a7a88f4865eaaf7b196bf7f77b3839 = L.polyline(
+                [[10.79705976, 106.6483953], [10.94469, 106.82432], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#8309e9", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8309e9", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_87a7a88f4865eaaf7b196bf7f77b3839.bindTooltip(
+                `<div>
+                     Cluster 32 - #5ca10b
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_813e7b686fe599860efd768525482ac1 = L.marker(
+                [10.94469, 106.82432],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_f18ea16a86bba578de9127768735b731 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ed16f2df18e736eb6eb9dc3ce3a04cbd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb6aad64d7cfaab81ae0b04d77911eb5 = $(`<div id="html_bb6aad64d7cfaab81ae0b04d77911eb5" style="width: 100.0%; height: 100.0%;">Công Ty Cổ Phần Lothamilk - Top A</div>`)[0];
+                popup_ed16f2df18e736eb6eb9dc3ce3a04cbd.setContent(html_bb6aad64d7cfaab81ae0b04d77911eb5);
+            
+        
+
+        marker_813e7b686fe599860efd768525482ac1.bindPopup(popup_ed16f2df18e736eb6eb9dc3ce3a04cbd)
+        ;
+
+        
+    
+    
+                marker_813e7b686fe599860efd768525482ac1.setIcon(icon_f18ea16a86bba578de9127768735b731);
+            
+    
+            var poly_line_d2d7621045059b37abe4ad1f31819f89 = L.polyline(
+                [[10.79705976, 106.6483953], [10.87403738, 106.6334368], [10.89413786, 106.6351453], [10.79705976, 106.6483953]],
+                {"bubblingMouseEvents": true, "color": "#37cbf1", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#37cbf1", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            poly_line_d2d7621045059b37abe4ad1f31819f89.bindTooltip(
+                `<div>
+                     Cluster 33 - #259182
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e5fa0e55ed33060ee6d0cd61e5126588 = L.marker(
+                [10.89413786, 106.6351453],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_8c1d8534005fe730c2673a253de7a2bd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a7abcb2610b93c2aadc15d89a6598906 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21e77caa98c8efd9b65d17177f6e1f9d = $(`<div id="html_21e77caa98c8efd9b65d17177f6e1f9d" style="width: 100.0%; height: 100.0%;">Công ty TNHH MTV Nồi Hơi HLT - Top B</div>`)[0];
+                popup_a7abcb2610b93c2aadc15d89a6598906.setContent(html_21e77caa98c8efd9b65d17177f6e1f9d);
+            
+        
+
+        marker_e5fa0e55ed33060ee6d0cd61e5126588.bindPopup(popup_a7abcb2610b93c2aadc15d89a6598906)
+        ;
+
+        
+    
+    
+                marker_e5fa0e55ed33060ee6d0cd61e5126588.setIcon(icon_8c1d8534005fe730c2673a253de7a2bd);
+            
+    
+            var marker_ec69cbc0b9c76f815306f1c72f56b0a0 = L.marker(
+                [10.87403738, 106.6334368],
+                {
+}
+            ).addTo(map_28a5b46ff74d2431a52b6e7d7a114982);
+        
+    
+            var icon_773945def6f8a0189fc15f5c7490e55a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f2c99769d49f6e5ee3caa175b3c12cba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_217c64a7023f5af859ea9782e96ab0c7 = $(`<div id="html_217c64a7023f5af859ea9782e96ab0c7" style="width: 100.0%; height: 100.0%;">Công Ty TNHH Cơ Khí Nguyên Thành Phát - Top C</div>`)[0];
+                popup_f2c99769d49f6e5ee3caa175b3c12cba.setContent(html_217c64a7023f5af859ea9782e96ab0c7);
+            
+        
+
+        marker_ec69cbc0b9c76f815306f1c72f56b0a0.bindPopup(popup_f2c99769d49f6e5ee3caa175b3c12cba)
+        ;
+
+        
+    
+    
+                marker_ec69cbc0b9c76f815306f1c72f56b0a0.setIcon(icon_773945def6f8a0189fc15f5c7490e55a);
+            
+</script>
+</html>
